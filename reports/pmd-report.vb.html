@@ -1,0 +1,558 @@
+<html><head><title>PMD</title></head><style type="text/css"><!--
+body { background-color: white; font-family:verdana, arial, helvetica, geneva; font-size: 16px; font-style: italic; color: black; }
+.title { font-family: verdana, arial, helvetica,geneva; font-size: 12px; font-weight:bold; color: white; }
+.body { font-family: verdana, arial, helvetica, geneva; font-size: 12px; font-weight:plain; color: black; }
+#TableHeader { background-color: #003366; }
+#RowColor1 { background-color: #eeeeee; }
+#RowColor2 { background-color: white; }
+--></style><body><center><table border="0" width="80%"><tr id=TableHeader><td colspan="2"><font class=title>&nbsp;src/com/nttdata/dbcon/ConnectionHolder.java</font></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>16&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid variables with short names like ds</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>16&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found non-transient, non-static member. Please mark as transient or provide accessors.</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>36&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'envContext' could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>41&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Caught exception is rethrown, original stack trace may be lost</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>52&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Caught exception is rethrown, original stack trace may be lost</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>58&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'bds' could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>64&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Caught exception is rethrown, original stack trace may be lost</font></td></tr>
+</table></br><table border="0" width="80%"><tr id=TableHeader><td colspan="2"><font class=title>&nbsp;src/com/nttdata/dbcon/DBConnectionException.java</font></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>5&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>It is a good practice to call super() in a constructor</font></td></tr>
+</table></br><table border="0" width="80%"><tr id=TableHeader><td colspan="2"><font class=title>&nbsp;src/com/nttdata/dbfw/DBHelper.java</font></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>19&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'con' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>20&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'outMap' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>21&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'prepStmt' (lines '21'-'25').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>22&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'resSet' (lines '22'-'26').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>23&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DU'-anomaly for variable 'resultList' (lines '23'-'53').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>23&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'resultList' could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>28&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'obj' could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>34&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Caught exception is rethrown, original stack trace may be lost</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>49&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Caught exception is rethrown, original stack trace may be lost</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>55&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'con' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>55&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'sqlStmt' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>56&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'inMap' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>57&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'prepStmt' (lines '57'-'62').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>58&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'resSet' (lines '58'-'64').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>59&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DU'-anomaly for variable 'resultList' (lines '59'-'92').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>59&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'resultList' could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>66&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'obj' could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>72&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Caught exception is rethrown, original stack trace may be lost</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>87&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Caught exception is rethrown, original stack trace may be lost</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>96&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'preStmt' (lines '96'-'99').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>97&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'result' (lines '97'-'101').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>101&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DU'-anomaly for variable 'result' (lines '101'-'122').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>105&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Caught exception is rethrown, original stack trace may be lost</font></td></tr>
+</table></br><table border="0" width="80%"><tr id=TableHeader><td colspan="2"><font class=title>&nbsp;src/com/nttdata/dbfw/OutParamMapper.java</font></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>7&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid modifiers which are implied by the context</font></td></tr>
+</table></br><table border="0" width="80%"><tr id=TableHeader><td colspan="2"><font class=title>&nbsp;src/com/nttdata/dbfw/OutTypeMapper.java</font></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>7&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid modifiers which are implied by the context</font></td></tr>
+</table></br><table border="0" width="80%"><tr id=TableHeader><td colspan="2"><font class=title>&nbsp;src/com/nttdata/dbfw/ParamMapper.java</font></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>7&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid modifiers which are implied by the context</font></td></tr>
+</table></br><table border="0" width="80%"><tr id=TableHeader><td colspan="2"><font class=title>&nbsp;src/com/nttdata/dbfw/ResultMapper.java</font></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>7&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid modifiers which are implied by the context</font></td></tr>
+</table></br><table border="0" width="80%"><tr id=TableHeader><td colspan="2"><font class=title>&nbsp;src/com/nttdata/infra/dao/ConnectionFactory.java</font></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>1&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>All methods are static.  Consider using Singleton instead.  Alternatively, you could add a private constructor or make the class abstract to silence this warning.</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>7&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Each class should declare at least one constructor</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>10&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Ensure that resources like this Connection object are closed after use</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>10&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'con' (lines '10'-'16').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>13&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'userName' could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>14&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'password' could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>15&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'url' could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>20&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid printStackTrace(); use a logger call instead.</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>24&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid printStackTrace(); use a logger call instead.</font></td></tr>
+</table></br><table border="0" width="80%"><tr id=TableHeader><td colspan="2"><font class=title>&nbsp;src/com/nttdata/infra/dao/RequestDAO.java</font></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>19&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Each class should declare at least one constructor</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>19&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>The class 'RequestDAO' has a Cyclomatic Complexity of 6 (Highest = 12).</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>24&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>The String literal "Argument " appears 4 times in this file; the first occurrence is on line 24</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>25&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Ensure that resources like this Connection object are closed after use</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>25&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'con' (lines '25'-'55').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>25&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'con' (lines '25'-'55').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>26&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'result' (lines '26'-'57').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>26&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'result' (lines '26'-'57').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>27&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'reID' (lines '27'-'70').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>27&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'reID' (lines '27'-'70').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>27&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DU'-anomaly for variable 'reID' (lines '27'-'86').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>27&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DU'-anomaly for variable 'reID' (lines '27'-'86').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>30&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'inMap' could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>52&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'conHolder' (lines '52'-'54').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>52&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'conHolder' (lines '52'-'54').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>62&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'reList' (lines '62'-'63').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>62&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'reList' (lines '62'-'63').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>65&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'itr' could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>66&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'req' (lines '66'-'68').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>66&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'req' (lines '66'-'68').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>66&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DU'-anomaly for variable 'req' (lines '66'-'86').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>66&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DU'-anomaly for variable 'req' (lines '66'-'86').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>68&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid instantiating new objects inside loops</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>68&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'req' (lines '68'-'69').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>68&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'req' (lines '68'-'69').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>70&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'reID' (lines '70'-'70').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>70&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'reID' (lines '70'-'70').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>70&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DU'-anomaly for variable 'reID' (lines '70'-'86').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>70&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DU'-anomaly for variable 'reID' (lines '70'-'86').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>76&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Caught exception is rethrown, original stack trace may be lost</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>80&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Caught exception is rethrown, original stack trace may be lost</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>92&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Ensure that resources like this Connection object are closed after use</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>92&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'con' (lines '92'-'104').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>92&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'con' (lines '92'-'104').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>93&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'reqDetailsList' (lines '93'-'106').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>93&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'reqDetailsList' (lines '93'-'106').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>94&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'inMap' could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>103&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'conHolder' could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>106&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DU'-anomaly for variable 'reqDetailsList' (lines '106'-'120').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>106&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DU'-anomaly for variable 'reqDetailsList' (lines '106'-'120').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>112&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Caught exception is rethrown, original stack trace may be lost</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>116&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Caught exception is rethrown, original stack trace may be lost</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>125&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Ensure that resources like this Connection object are closed after use</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>125&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'con' (lines '125'-'131').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>126&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'requestList' (lines '126'-'133').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>133&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DU'-anomaly for variable 'requestList' (lines '133'-'149').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>139&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Caught exception is rethrown, original stack trace may be lost</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>155&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Ensure that resources like this Connection object are closed after use</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>155&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'con' (lines '155'-'169').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>155&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'con' (lines '155'-'169').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>157&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'reqDetails' (lines '157'-'176').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>157&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'reqDetails' (lines '157'-'176').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>157&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DU'-anomaly for variable 'reqDetails' (lines '157'-'190').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>157&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DU'-anomaly for variable 'reqDetails' (lines '157'-'190').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>159&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'inMap' could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>176&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'reqDetails' (lines '176'-'176').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>176&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'reqDetails' (lines '176'-'176').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>176&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DU'-anomaly for variable 'reqDetails' (lines '176'-'190').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>176&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DU'-anomaly for variable 'reqDetails' (lines '176'-'190').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>192&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>The method 'saveSRDetails' has a Cyclomatic Complexity of 12.</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>197&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Ensure that resources like this Connection object are closed after use</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>197&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'con' (lines '197'-'255').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>197&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'con' (lines '197'-'255').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>197&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'con' (lines '197'-'255').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>197&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'con' (lines '197'-'255').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>197&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'con' (lines '197'-'255').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>200&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'result' (lines '200'-'259').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>200&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'result' (lines '200'-'259').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>200&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'result' (lines '200'-'259').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>200&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'result' (lines '200'-'259').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>200&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'result' (lines '200'-'259').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>200&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'result' (lines '200'-'263').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>200&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'result' (lines '200'-'263').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>200&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'result' (lines '200'-'263').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>200&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'result' (lines '200'-'263').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>200&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'result' (lines '200'-'267').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>200&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'result' (lines '200'-'267').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>200&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'result' (lines '200'-'267').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>200&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'result' (lines '200'-'267').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>200&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'result' (lines '200'-'271').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>200&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'result' (lines '200'-'271').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>200&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'result' (lines '200'-'271').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>200&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'result' (lines '200'-'271').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>201&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'isInserted' (lines '201'-'275').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>201&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'isInserted' (lines '201'-'275').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>201&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'isInserted' (lines '201'-'275').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>201&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'isInserted' (lines '201'-'275').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>201&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'isInserted' (lines '201'-'275').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>201&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DU'-anomaly for variable 'isInserted' (lines '201'-'291').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>201&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DU'-anomaly for variable 'isInserted' (lines '201'-'291').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>201&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DU'-anomaly for variable 'isInserted' (lines '201'-'291').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>201&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DU'-anomaly for variable 'isInserted' (lines '201'-'291').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>202&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DU'-anomaly for variable 'inMapCancel' (lines '202'-'291').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>202&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DU'-anomaly for variable 'inMapCancel' (lines '202'-'291').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>202&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DU'-anomaly for variable 'inMapCancel' (lines '202'-'291').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>202&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DU'-anomaly for variable 'inMapCancel' (lines '202'-'291').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>216&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DU'-anomaly for variable 'inMapReject' (lines '216'-'291').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>216&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DU'-anomaly for variable 'inMapReject' (lines '216'-'291').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>216&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DU'-anomaly for variable 'inMapReject' (lines '216'-'291').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>216&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DU'-anomaly for variable 'inMapReject' (lines '216'-'291').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>216&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DU'-anomaly for variable 'inMapReject' (lines '216'-'291').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>230&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DU'-anomaly for variable 'inMapAssign' (lines '230'-'291').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>230&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DU'-anomaly for variable 'inMapAssign' (lines '230'-'291').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>230&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DU'-anomaly for variable 'inMapAssign' (lines '230'-'291').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>230&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DU'-anomaly for variable 'inMapAssign' (lines '230'-'291').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>230&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DU'-anomaly for variable 'inMapAssign' (lines '230'-'291').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>242&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DU'-anomaly for variable 'inMapComplete' (lines '242'-'291').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>242&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DU'-anomaly for variable 'inMapComplete' (lines '242'-'291').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>242&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DU'-anomaly for variable 'inMapComplete' (lines '242'-'291').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>242&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DU'-anomaly for variable 'inMapComplete' (lines '242'-'291').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>242&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DU'-anomaly for variable 'inMapComplete' (lines '242'-'291').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>255&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DU'-anomaly for variable 'con' (lines '255'-'291').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>255&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DU'-anomaly for variable 'con' (lines '255'-'291').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>255&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DU'-anomaly for variable 'con' (lines '255'-'291').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>255&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DU'-anomaly for variable 'con' (lines '255'-'291').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>275&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DU'-anomaly for variable 'isInserted' (lines '275'-'291').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>275&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DU'-anomaly for variable 'isInserted' (lines '275'-'291').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>275&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DU'-anomaly for variable 'isInserted' (lines '275'-'291').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>275&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DU'-anomaly for variable 'isInserted' (lines '275'-'291').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>275&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DU'-anomaly for variable 'isInserted' (lines '275'-'291').</font></td></tr>
+</table></br><table border="0" width="80%"><tr id=TableHeader><td colspan="2"><font class=title>&nbsp;src/com/nttdata/infra/dao/RequestDAOTest.java</font></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>14&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Each class should declare at least one constructor</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>15&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found non-transient, non-static member. Please mark as transient or provide accessors.</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>15&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Use explicit scoping instead of the default package private level</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>16&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found non-transient, non-static member. Please mark as transient or provide accessors.</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>16&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Use explicit scoping instead of the default package private level</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>21&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'newReq' could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>22&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'test' could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>23&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid variables with short names like id</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>23&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'id' (lines '23'-'40').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>41&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>System.out.print is used</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>42&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>JUnit assertions should include a message</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>45&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid printStackTrace(); use a logger call instead.</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>52&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'test' could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>53&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'req1' could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>54&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'req2' could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>55&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'dataList' (lines '55'-'67').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>71&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>JUnit assertions should include a message</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>75&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid printStackTrace(); use a logger call instead.</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>86&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'dataList' (lines '86'-'98').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>102&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>JUnit assertions should include a message</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>106&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid printStackTrace(); use a logger call instead.</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>114&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'allList' (lines '114'-'129').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>125&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'getReq' (lines '125'-'132').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>125&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DU'-anomaly for variable 'getReq' (lines '125'-'143').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>126&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'request' (lines '126'-'134').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>134&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'request' (lines '134'-'134').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>137&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>JUnit assertions should include a message</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>141&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid printStackTrace(); use a logger call instead.</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>148&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'allList' (lines '148'-'163').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>159&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'actreq' (lines '159'-'166').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>159&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DU'-anomaly for variable 'actreq' (lines '159'-'177').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>160&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'request' (lines '160'-'168').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>168&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'request' (lines '168'-'168').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>171&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>JUnit assertions should include a message</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>175&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid printStackTrace(); use a logger call instead.</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>182&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'isUpdated' (lines '182'-'203').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>185&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid unused local variables such as 'id'.</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>185&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid variables with short names like id</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>185&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DU'-anomaly for variable 'id' (lines '185'-'210').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>215&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'isUpdated' (lines '215'-'236').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>218&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid unused local variables such as 'id'.</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>218&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid variables with short names like id</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>218&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DU'-anomaly for variable 'id' (lines '218'-'243').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>249&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'req' (lines '249'-'268').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>280&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'req' (lines '280'-'298').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>310&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'req' (lines '310'-'328').</font></td></tr>
+</table></br><table border="0" width="80%"><tr id=TableHeader><td colspan="2"><font class=title>&nbsp;src/com/nttdata/infra/dao/RequestTypeDAO.java</font></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>15&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Each class should declare at least one constructor</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>21&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Ensure that resources like this Connection object are closed after use</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>21&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'con' (lines '21'-'27').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>22&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'reqTypeList' (lines '22'-'29').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>29&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DU'-anomaly for variable 'reqTypeList' (lines '29'-'43').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>34&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Caught exception is rethrown, original stack trace may be lost</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>38&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Caught exception is rethrown, original stack trace may be lost</font></td></tr>
+</table></br><table border="0" width="80%"><tr id=TableHeader><td colspan="2"><font class=title>&nbsp;src/com/nttdata/infra/dao/RequestTypeDAOTest.java</font></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>13&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Each class should declare at least one constructor</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>17&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'typeList' (lines '17'-'38').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>18&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'correctList' could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>19&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'type1' could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>20&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'type2' could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>21&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'type3' could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>36&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'test' could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>44&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>JUnit assertions should include a message</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>49&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid printStackTrace(); use a logger call instead.</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>55&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'typeList' (lines '55'-'76').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>82&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>JUnit assertions should include a message</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>87&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid printStackTrace(); use a logger call instead.</font></td></tr>
+</table></br><table border="0" width="80%"><tr id=TableHeader><td colspan="2"><font class=title>&nbsp;src/com/nttdata/infra/dao/SQLMapper.java</font></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>17&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Each class should declare at least one constructor</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>20&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid excessively long variable names like REQUEST_BY_CREATOR</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>26&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid excessively long variable names like GET_REQUEST_DETIALS</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>30&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid excessively long variable names like GET_STATUS_DETAILS</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>38&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid excessively long variable names like UPDATE_ON_COMPLETE</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>46&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'resSet' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>47&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'userDetails' could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>56&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid excessively long variable names like SR_DETAILS_RES_MAPPER</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>58&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'resSet' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>59&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'srDetails' could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>82&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'resSet' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>83&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'stDetails' could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>84&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'role' could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>95&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'resSet' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>96&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'stDetails' could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>104&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'resSet' is not assigned and could be declared final</font></td></tr>
+</table></br><table border="0" width="80%"><tr id=TableHeader><td colspan="2"><font class=title>&nbsp;src/com/nttdata/infra/dao/StatusDAO.java</font></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>21&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Each class should declare at least one constructor</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>29&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Ensure that resources like this Connection object are closed after use</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>29&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'con' (lines '29'-'43').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>29&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'con' (lines '29'-'43').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>32&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'inMap' could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>45&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DU'-anomaly for variable 'statusList' (lines '45'-'59').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>45&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DU'-anomaly for variable 'statusList' (lines '45'-'59').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>51&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Caught exception is rethrown, original stack trace may be lost</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>55&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Caught exception is rethrown, original stack trace may be lost</font></td></tr>
+</table></br><table border="0" width="80%"><tr id=TableHeader><td colspan="2"><font class=title>&nbsp;src/com/nttdata/infra/dao/StatusDAOTest.java</font></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>14&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Each class should declare at least one constructor</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>18&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'statusList' (lines '18'-'32').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>19&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'sts' could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>20&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'role2' could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>21&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'stat1' could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>22&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'getSts' (lines '22'-'35').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>22&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DU'-anomaly for variable 'getSts' (lines '22'-'49').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>23&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'stat' (lines '23'-'37').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>33&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'itr' could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>37&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'stat' (lines '37'-'37').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>42&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>JUnit assertions should include a message</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>46&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid printStackTrace(); use a logger call instead.</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>53&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'role1' could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>54&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'myStat' (lines '54'-'68').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>54&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DU'-anomaly for variable 'myStat' (lines '54'-'79').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>57&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'stats' (lines '57'-'70').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>58&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'getList' (lines '58'-'65').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>70&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'stats' (lines '70'-'70').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>73&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>JUnit assertions should include a message</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>76&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid printStackTrace(); use a logger call instead.</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>88&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'stats' (lines '88'-'100').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>89&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'myStat' (lines '89'-'98').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>89&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DU'-anomaly for variable 'myStat' (lines '89'-'110').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>90&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'getList' (lines '90'-'95').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>100&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'stats' (lines '100'-'100').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>103&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>JUnit assertions should include a message</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>107&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid printStackTrace(); use a logger call instead.</font></td></tr>
+</table></br><table border="0" width="80%"><tr id=TableHeader><td colspan="2"><font class=title>&nbsp;src/com/nttdata/infra/dao/UserDAO.java</font></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>23&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Each class should declare at least one constructor</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>31&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Ensure that resources like this Connection object are closed after use</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>31&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'con' (lines '31'-'46').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>31&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'con' (lines '31'-'46').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>32&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'userList' (lines '32'-'48').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>32&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'userList' (lines '32'-'48').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>33&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'user1' (lines '33'-'52').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>33&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'user1' (lines '33'-'52').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>33&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DU'-anomaly for variable 'user1' (lines '33'-'66').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>33&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DU'-anomaly for variable 'user1' (lines '33'-'66').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>34&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'conHolder' (lines '34'-'45').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>34&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'conHolder' (lines '34'-'45').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>35&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'inMap' could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>46&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'con' (lines '46'-'47').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>46&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'con' (lines '46'-'47').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>50&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'itr' could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>52&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'user1' (lines '52'-'52').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>52&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'user1' (lines '52'-'52').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>52&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DU'-anomaly for variable 'user1' (lines '52'-'66').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>52&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DU'-anomaly for variable 'user1' (lines '52'-'66').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>57&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Caught exception is rethrown, original stack trace may be lost</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>62&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Caught exception is rethrown, original stack trace may be lost</font></td></tr>
+</table></br><table border="0" width="80%"><tr id=TableHeader><td colspan="2"><font class=title>&nbsp;src/com/nttdata/infra/dao/UserDAOTest.java</font></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>9&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Each class should declare at least one constructor</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>13&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'login' (lines '13'-'18').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>14&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'test' could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>15&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'validate' (lines '15'-'21').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>15&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'validate' (lines '15'-'23').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>20&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid if (x != y) ..; else ..;</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>25&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>JUnit assertions should include a message</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>28&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid printStackTrace(); use a logger call instead.</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>34&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'login' (lines '34'-'39').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>35&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'test' could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>36&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'validate' (lines '36'-'42').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>36&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'validate' (lines '36'-'44').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>46&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>JUnit assertions should include a message</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>49&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid printStackTrace(); use a logger call instead.</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>55&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'login' (lines '55'-'60').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>56&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'test' could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>57&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'validate' (lines '57'-'63').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>57&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'validate' (lines '57'-'65').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>67&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>JUnit assertions should include a message</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>70&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid printStackTrace(); use a logger call instead.</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>76&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'login' (lines '76'-'81').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>77&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'test' could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>78&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'validate' (lines '78'-'84').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>78&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'validate' (lines '78'-'86').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>88&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>JUnit assertions should include a message</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>91&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid printStackTrace(); use a logger call instead.</font></td></tr>
+</table></br><table border="0" width="80%"><tr id=TableHeader><td colspan="2"><font class=title>&nbsp;src/com/nttdata/infra/domain/RequestDetails.java</font></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>11&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found non-transient, non-static member. Please mark as transient or provide accessors.</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>12&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found non-transient, non-static member. Please mark as transient or provide accessors.</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>17&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found non-transient, non-static member. Please mark as transient or provide accessors.</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>20&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid excessively long variable names like cancellationReason</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>21&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found non-transient, non-static member. Please mark as transient or provide accessors.</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>44&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid really long parameter lists.</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>44&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid unused constructor parameters such as 'reqTypeId'.</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>46&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid excessively long variable names like cancellationReason</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>91&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid excessively long variable names like cancellationReason</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>91&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'cancellationReason' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>91&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'statusId' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>96&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'rejectionReason' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>96&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'statusid' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>101&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'completedDate' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>103&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'complete' could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>104&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Consider simply returning the value vs storing it in local variable 'complete'</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>109&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'assigned' could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>110&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Consider simply returning the value vs storing it in local variable 'assigned'</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>189&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid excessively long variable names like cancellationReason</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>256&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'isSame' (lines '256'-'260').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>257&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'details' could be declared final</font></td></tr>
+</table></br><table border="0" width="80%"><tr id=TableHeader><td colspan="2"><font class=title>&nbsp;src/com/nttdata/infra/domain/RequestType.java</font></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>4&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid variables with short names like id</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>7&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid variables with short names like id</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>21&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid variables with short names like id</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>21&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'id' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>29&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'desc' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>45&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'obj' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>47&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'isSame' (lines '47'-'50').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>48&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'details' could be declared final</font></td></tr>
+</table></br><table border="0" width="80%"><tr id=TableHeader><td colspan="2"><font class=title>&nbsp;src/com/nttdata/infra/domain/Role.java</font></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>4&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid variables with short names like id</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>7&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid unnecessary constructors - the compiler will generate these for you</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>7&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Document empty constructor</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>15&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid variables with short names like id</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>15&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'id' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>23&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'name' is not assigned and could be declared final</font></td></tr>
+</table></br><table border="0" width="80%"><tr id=TableHeader><td colspan="2"><font class=title>&nbsp;src/com/nttdata/infra/domain/Status.java</font></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>6&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Use explicit scoping instead of the default package private level</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>22&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'statusId' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>30&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'statusDesc' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>38&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'role' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>54&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'obj' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>56&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'isSame' (lines '56'-'59').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>57&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'sts' could be declared final</font></td></tr>
+</table></br><table border="0" width="80%"><tr id=TableHeader><td colspan="2"><font class=title>&nbsp;src/com/nttdata/infra/domain/User.java</font></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>4&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid variables with short names like id</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>9&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid variables with short names like id</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>25&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid variables with short names like id</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>25&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'id' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>33&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'passwd' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>41&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'name' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>49&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'rollId' is not assigned and could be declared final</font></td></tr>
+</table></br><table border="0" width="80%"><tr id=TableHeader><td colspan="2"><font class=title>&nbsp;src/com/nttdata/infra/service/InfraSystemFacade.java</font></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>22&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Each class should declare at least one constructor</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>27&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>The String literal "First argument:" appears 6 times in this file; the first occurrence is on line 27</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>29&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'user' could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>30&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'login' (lines '30'-'32').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>32&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DU'-anomaly for variable 'login' (lines '32'-'40').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>37&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Caught exception is rethrown, original stack trace may be lost</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>44&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'createSR' could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>47&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DU'-anomaly for variable 'result' (lines '47'-'55').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>52&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Caught exception is rethrown, original stack trace may be lost</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>60&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'reqDetails' could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>61&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'reqList' (lines '61'-'64').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>64&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DU'-anomaly for variable 'reqList' (lines '64'-'79').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>76&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Caught exception is rethrown, original stack trace may be lost</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>86&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'reqDetails' could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>88&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DU'-anomaly for variable 'reqDet' (lines '88'-'97').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>93&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Caught exception is rethrown, original stack trace may be lost</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>103&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'statusList' (lines '103'-'106').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>104&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'stsDao' could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>106&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DU'-anomaly for variable 'statusList' (lines '106'-'119').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>115&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Caught exception is rethrown, original stack trace may be lost</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>127&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DU'-anomaly for variable 'isUpdated' (lines '127'-'135').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>138&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'typeList' (lines '138'-'141').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>141&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DU'-anomaly for variable 'typeList' (lines '141'-'153').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>156&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'reqList' (lines '156'-'159').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>159&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DU'-anomaly for variable 'reqList' (lines '159'-'167').</font></td></tr>
+</table></br><table border="0" width="80%"><tr id=TableHeader><td colspan="2"><font class=title>&nbsp;src/com/nttdata/infra/web/handlers/CreateRequest.java</font></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>19&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Each class should declare at least one constructor</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>22&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'request' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>22&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'response' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>26&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'infra' could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>27&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'session' could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>28&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'requestId' (lines '28'-'53').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>29&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'dispatch' (lines '29'-'55').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>30&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'userId' could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>31&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'location' could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>32&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'cubeNo' could be declared final</font></td></tr>
+</table></br><table border="0" width="80%"><tr id=TableHeader><td colspan="2"><font class=title>&nbsp;src/com/nttdata/infra/web/handlers/Login.java</font></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>18&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Each class should declare at least one constructor</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>21&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'request' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>21&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'response' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>24&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'userName' could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>25&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'password' could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>26&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'session' could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>28&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'dispatch' (lines '28'-'39').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>28&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'dispatch' (lines '28'-'47').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>29&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'infra' could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>30&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'login' (lines '30'-'33').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>44&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'roleId' could be declared final</font></td></tr>
+</table></br><table border="0" width="80%"><tr id=TableHeader><td colspan="2"><font class=title>&nbsp;src/com/nttdata/infra/web/handlers/Logout.java</font></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>14&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Each class should declare at least one constructor</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>17&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'request' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>17&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'response' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>21&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'session' could be declared final</font></td></tr>
+</table></br><table border="0" width="80%"><tr id=TableHeader><td colspan="2"><font class=title>&nbsp;src/com/nttdata/infra/web/handlers/ReqType.java</font></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>20&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Each class should declare at least one constructor</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>23&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'request' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>23&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'response' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>26&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'session' could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>27&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'dispatch' (lines '27'-'35').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>28&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'infra' could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>29&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'typeList' (lines '29'-'33').</font></td></tr>
+</table></br><table border="0" width="80%"><tr id=TableHeader><td colspan="2"><font class=title>&nbsp;src/com/nttdata/infra/web/handlers/RequestList.java</font></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>21&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Each class should declare at least one constructor</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>24&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'request' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>24&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'response' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>27&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'fac' could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>28&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'session' could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>29&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'role' could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>30&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'dispatch' (lines '30'-'48').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>32&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid unused local variables such as 'types'.</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>32&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'types' (lines '32'-'35').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>35&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DU'-anomaly for variable 'types' (lines '35'-'87').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>52&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'reqList' (lines '52'-'54').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>69&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'reqList' (lines '69'-'72').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>70&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'userId' could be declared final</font></td></tr>
+</table></br><table border="0" width="80%"><tr id=TableHeader><td colspan="2"><font class=title>&nbsp;src/com/nttdata/infra/web/handlers/SaveRequest.java</font></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>19&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Each class should declare at least one constructor</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>19&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>The class 'SaveRequest' has a Cyclomatic Complexity of 18 (Highest = 17).</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>22&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid really long methods.</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>22&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'request' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>22&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'response' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>22&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>The method 'handle' has a Cyclomatic Complexity of 17.</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>25&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'dispatch' (lines '25'-'104').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>25&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'dispatch' (lines '25'-'114').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>25&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'dispatch' (lines '25'-'121').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>25&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'dispatch' (lines '25'-'64').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>25&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'dispatch' (lines '25'-'74').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>25&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'dispatch' (lines '25'-'81').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>25&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'dispatch' (lines '25'-'86').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>25&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DU'-anomaly for variable 'dispatch' (lines '25'-'126').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>26&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'date' could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>27&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DU'-anomaly for variable 'today' (lines '27'-'126').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>27&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'today' could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>28&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'session' could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>29&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DU'-anomaly for variable 'infra' (lines '29'-'126').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>29&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'infra' could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>30&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'updateReq' (lines '30'-'31').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>31&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DU'-anomaly for variable 'updateReq' (lines '31'-'126').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>32&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DU'-anomaly for variable 'rejectReason' (lines '32'-'126').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>32&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'rejectReason' could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>33&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DU'-anomaly for variable 'cancelReason' (lines '33'-'126').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>34&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DU'-anomaly for variable 'statusID' (lines '34'-'126').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>39&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid if (x != y) ..; else ..;</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>40&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid if (x != y) ..; else ..;</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>92&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>These nested if statements could be combined</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>93&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid if (x != y) ..; else ..;</font></td></tr>
+</table></br><table border="0" width="80%"><tr id=TableHeader><td colspan="2"><font class=title>&nbsp;src/com/nttdata/infra/web/handlers/ViewRequest.java</font></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>18&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Each class should declare at least one constructor</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>21&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'request' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>21&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'response' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>24&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'req' could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>26&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'dispatch' (lines '26'-'33').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>27&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'fac' could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>28&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'details' (lines '28'-'31').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>29&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'session' could be declared final</font></td></tr>
+</table></br><table border="0" width="80%"><tr id=TableHeader><td colspan="2"><font class=title>&nbsp;src/com/nttdata/mvc/HttpRequestHandler.java</font></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>10&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid modifiers which are implied by the context</font></td></tr>
+</table></br><table border="0" width="80%"><tr id=TableHeader><td colspan="2"><font class=title>&nbsp;src/com/nttdata/mvc/MvcController.java</font></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>17&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found non-transient, non-static member. Please mark as transient or provide accessors.</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>22&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid unnecessary constructors - the compiler will generate these for you</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>31&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'request' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>32&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'response' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>41&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'request' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>42&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'response' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>44&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'url' could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>46&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'key' could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>47&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'handler' could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>48&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid if (x != y) ..; else ..;</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>56&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'config' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>59&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'mvcProps' could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>66&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Caught exception is rethrown, original stack trace may be lost</font></td></tr>
+</table></br><table border="0" width="80%"><tr id=TableHeader><td colspan="2"><font class=title>&nbsp;src/com/nttdata/mvc/MvcUtil.java</font></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>16&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'clazz' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>16&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'interfaceName' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>17&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'interfaces' could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>18&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'found' (lines '18'-'21').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>21&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'found' (lines '21'-'21').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>27&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'propsFile' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>28&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DU'-anomaly for variable 'handlers' (lines '28'-'80').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>28&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'handlers' could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>29&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'prop' could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>30&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'proStr' (lines '30'-'32').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>34&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'enKeys' could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>36&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'key' could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>52&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Caught exception is rethrown, original stack trace may be lost</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>56&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Caught exception is rethrown, original stack trace may be lost</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>60&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Caught exception is rethrown, original stack trace may be lost</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>64&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Caught exception is rethrown, original stack trace may be lost</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>68&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Caught exception is rethrown, original stack trace may be lost</font></td></tr>
+</table><br></center></body></html>

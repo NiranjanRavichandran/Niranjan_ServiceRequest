@@ -1,0 +1,1620 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.0rc1" timestamp="2014-03-08T06:58:53.703" elapsedTime="0s">
+<file name="src/com/nttdata/dbcon/ConnectionHolder.java">
+<violation beginline="16" endline="16" begincolumn="0" endcolumn="0" rule="ShortVariable" ruleset="Naming Rules" package="com.nttdata.dbcon" class="ConnectionHolder" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like ds
+</violation>
+<violation beginline="16" endline="16" begincolumn="0" endcolumn="0" rule="BeanMembersShouldSerialize" ruleset="JavaBean Rules" package="com.nttdata.dbcon" class="ConnectionHolder" externalInfoUrl="http://pmd.sourceforge.net/rules/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="36" endline="36" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.dbcon" class="ConnectionHolder" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'envContext' could be declared final
+</violation>
+<violation beginline="41" endline="41" begincolumn="0" endcolumn="0" rule="PreserveStackTrace" ruleset="Design Rules" package="com.nttdata.dbcon" class="ConnectionHolder" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#PreserveStackTrace" priority="3">
+Caught exception is rethrown, original stack trace may be lost
+</violation>
+<violation beginline="52" endline="52" begincolumn="0" endcolumn="0" rule="PreserveStackTrace" ruleset="Design Rules" package="com.nttdata.dbcon" class="ConnectionHolder" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#PreserveStackTrace" priority="3">
+Caught exception is rethrown, original stack trace may be lost
+</violation>
+<violation beginline="58" endline="58" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.dbcon" class="ConnectionHolder" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'bds' could be declared final
+</violation>
+<violation beginline="64" endline="64" begincolumn="0" endcolumn="0" rule="PreserveStackTrace" ruleset="Design Rules" package="com.nttdata.dbcon" class="ConnectionHolder" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#PreserveStackTrace" priority="3">
+Caught exception is rethrown, original stack trace may be lost
+</violation>
+</file>
+<file name="src/com/nttdata/dbcon/DBConnectionException.java">
+<violation beginline="5" endline="7" begincolumn="0" endcolumn="0" rule="CallSuperInConstructor" ruleset="Controversial Rules" package="com.nttdata.dbcon" class="DBConnectionException" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#CallSuperInConstructor" priority="3">
+It is a good practice to call super() in a constructor
+</violation>
+</file>
+<file name="src/com/nttdata/dbfw/DBHelper.java">
+<violation beginline="19" endline="19" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.dbfw" class="DBHelper" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'con' is not assigned and could be declared final
+</violation>
+<violation beginline="20" endline="20" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.dbfw" class="DBHelper" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'outMap' is not assigned and could be declared final
+</violation>
+<violation beginline="21" endline="25" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.dbfw" class="DBHelper" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'prepStmt' (lines '21'-'25').
+</violation>
+<violation beginline="22" endline="26" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.dbfw" class="DBHelper" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'resSet' (lines '22'-'26').
+</violation>
+<violation beginline="23" endline="53" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.dbfw" class="DBHelper" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'resultList' (lines '23'-'53').
+</violation>
+<violation beginline="23" endline="23" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.dbfw" class="DBHelper" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'resultList' could be declared final
+</violation>
+<violation beginline="28" endline="28" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.dbfw" class="DBHelper" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'obj' could be declared final
+</violation>
+<violation beginline="34" endline="34" begincolumn="0" endcolumn="0" rule="PreserveStackTrace" ruleset="Design Rules" package="com.nttdata.dbfw" class="DBHelper" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#PreserveStackTrace" priority="3">
+Caught exception is rethrown, original stack trace may be lost
+</violation>
+<violation beginline="49" endline="49" begincolumn="0" endcolumn="0" rule="PreserveStackTrace" ruleset="Design Rules" package="com.nttdata.dbfw" class="DBHelper" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#PreserveStackTrace" priority="3">
+Caught exception is rethrown, original stack trace may be lost
+</violation>
+<violation beginline="55" endline="55" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.dbfw" class="DBHelper" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'con' is not assigned and could be declared final
+</violation>
+<violation beginline="55" endline="55" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.dbfw" class="DBHelper" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'sqlStmt' is not assigned and could be declared final
+</violation>
+<violation beginline="56" endline="56" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.dbfw" class="DBHelper" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'inMap' is not assigned and could be declared final
+</violation>
+<violation beginline="57" endline="62" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.dbfw" class="DBHelper" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'prepStmt' (lines '57'-'62').
+</violation>
+<violation beginline="58" endline="64" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.dbfw" class="DBHelper" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'resSet' (lines '58'-'64').
+</violation>
+<violation beginline="59" endline="92" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.dbfw" class="DBHelper" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'resultList' (lines '59'-'92').
+</violation>
+<violation beginline="59" endline="59" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.dbfw" class="DBHelper" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'resultList' could be declared final
+</violation>
+<violation beginline="66" endline="66" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.dbfw" class="DBHelper" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'obj' could be declared final
+</violation>
+<violation beginline="72" endline="72" begincolumn="0" endcolumn="0" rule="PreserveStackTrace" ruleset="Design Rules" package="com.nttdata.dbfw" class="DBHelper" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#PreserveStackTrace" priority="3">
+Caught exception is rethrown, original stack trace may be lost
+</violation>
+<violation beginline="87" endline="87" begincolumn="0" endcolumn="0" rule="PreserveStackTrace" ruleset="Design Rules" package="com.nttdata.dbfw" class="DBHelper" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#PreserveStackTrace" priority="3">
+Caught exception is rethrown, original stack trace may be lost
+</violation>
+<violation beginline="96" endline="99" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.dbfw" class="DBHelper" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'preStmt' (lines '96'-'99').
+</violation>
+<violation beginline="97" endline="101" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.dbfw" class="DBHelper" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'result' (lines '97'-'101').
+</violation>
+<violation beginline="101" endline="122" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.dbfw" class="DBHelper" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'result' (lines '101'-'122').
+</violation>
+<violation beginline="105" endline="105" begincolumn="0" endcolumn="0" rule="PreserveStackTrace" ruleset="Design Rules" package="com.nttdata.dbfw" class="DBHelper" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#PreserveStackTrace" priority="3">
+Caught exception is rethrown, original stack trace may be lost
+</violation>
+</file>
+<file name="src/com/nttdata/dbfw/OutParamMapper.java">
+<violation beginline="7" endline="7" begincolumn="0" endcolumn="0" rule="UnusedModifier" ruleset="Controversial Rules" package="com.nttdata.dbfw" class="OutParamMapper" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#UnusedModifier" priority="3">
+Avoid modifiers which are implied by the context
+</violation>
+</file>
+<file name="src/com/nttdata/dbfw/OutTypeMapper.java">
+<violation beginline="7" endline="7" begincolumn="0" endcolumn="0" rule="UnusedModifier" ruleset="Controversial Rules" package="com.nttdata.dbfw" class="OutTypeMapper" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#UnusedModifier" priority="3">
+Avoid modifiers which are implied by the context
+</violation>
+</file>
+<file name="src/com/nttdata/dbfw/ParamMapper.java">
+<violation beginline="7" endline="7" begincolumn="0" endcolumn="0" rule="UnusedModifier" ruleset="Controversial Rules" package="com.nttdata.dbfw" class="ParamMapper" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#UnusedModifier" priority="3">
+Avoid modifiers which are implied by the context
+</violation>
+</file>
+<file name="src/com/nttdata/dbfw/ResultMapper.java">
+<violation beginline="7" endline="7" begincolumn="0" endcolumn="0" rule="UnusedModifier" ruleset="Controversial Rules" package="com.nttdata.dbfw" class="ResultMapper" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#UnusedModifier" priority="3">
+Avoid modifiers which are implied by the context
+</violation>
+</file>
+<file name="src/com/nttdata/infra/dao/ConnectionFactory.java">
+<violation beginline="1" endline="29" begincolumn="0" endcolumn="0" rule="UseSingleton" ruleset="Design Rules" package="com.nttdata.infra.dao" class="ConnectionFactory" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#UseSingleton" priority="3">
+All methods are static.  Consider using Singleton instead.  Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+<violation beginline="7" endline="29" begincolumn="0" endcolumn="0" rule="AtLeastOneConstructor" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="ConnectionFactory" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#AtLeastOneConstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="10" endline="10" begincolumn="0" endcolumn="0" rule="CloseResource" ruleset="Design Rules" package="com.nttdata.infra.dao" class="ConnectionFactory" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#CloseResource" priority="3">
+Ensure that resources like this Connection object are closed after use
+</violation>
+<violation beginline="10" endline="16" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="ConnectionFactory" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'con' (lines '10'-'16').
+</violation>
+<violation beginline="13" endline="13" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.dao" class="ConnectionFactory" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'userName' could be declared final
+</violation>
+<violation beginline="14" endline="14" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.dao" class="ConnectionFactory" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'password' could be declared final
+</violation>
+<violation beginline="15" endline="15" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.dao" class="ConnectionFactory" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'url' could be declared final
+</violation>
+<violation beginline="20" endline="20" begincolumn="0" endcolumn="0" rule="AvoidPrintStackTrace" ruleset="Java Logging Rules" package="com.nttdata.infra.dao" class="ConnectionFactory" externalInfoUrl="http://pmd.sourceforge.net/rules/logging-java.html#AvoidPrintStackTrace" priority="3">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="24" endline="24" begincolumn="0" endcolumn="0" rule="AvoidPrintStackTrace" ruleset="Java Logging Rules" package="com.nttdata.infra.dao" class="ConnectionFactory" externalInfoUrl="http://pmd.sourceforge.net/rules/logging-java.html#AvoidPrintStackTrace" priority="3">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+</file>
+<file name="src/com/nttdata/infra/dao/RequestDAO.java">
+<violation beginline="19" endline="292" begincolumn="0" endcolumn="0" rule="AtLeastOneConstructor" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#AtLeastOneConstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="19" endline="292" begincolumn="0" endcolumn="0" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/codesize.html#CyclomaticComplexity" priority="3">
+The class 'RequestDAO' has a Cyclomatic Complexity of 6 (Highest = 12).
+</violation>
+<violation beginline="24" endline="24" begincolumn="0" endcolumn="0" rule="AvoidDuplicateLiterals" ruleset="String and StringBuffer Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/strings.html#AvoidDuplicateLiterals" priority="3">
+The String literal &quot;Argument &quot; appears 4 times in this file; the first occurrence is on line 24
+</violation>
+<violation beginline="25" endline="25" begincolumn="0" endcolumn="0" rule="CloseResource" ruleset="Design Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#CloseResource" priority="3">
+Ensure that resources like this Connection object are closed after use
+</violation>
+<violation beginline="25" endline="55" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'con' (lines '25'-'55').
+</violation>
+<violation beginline="25" endline="55" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'con' (lines '25'-'55').
+</violation>
+<violation beginline="26" endline="57" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'result' (lines '26'-'57').
+</violation>
+<violation beginline="26" endline="57" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'result' (lines '26'-'57').
+</violation>
+<violation beginline="27" endline="70" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'reID' (lines '27'-'70').
+</violation>
+<violation beginline="27" endline="70" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'reID' (lines '27'-'70').
+</violation>
+<violation beginline="27" endline="86" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'reID' (lines '27'-'86').
+</violation>
+<violation beginline="27" endline="86" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'reID' (lines '27'-'86').
+</violation>
+<violation beginline="30" endline="50" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'inMap' could be declared final
+</violation>
+<violation beginline="52" endline="54" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'conHolder' (lines '52'-'54').
+</violation>
+<violation beginline="52" endline="54" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'conHolder' (lines '52'-'54').
+</violation>
+<violation beginline="62" endline="63" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'reList' (lines '62'-'63').
+</violation>
+<violation beginline="62" endline="63" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'reList' (lines '62'-'63').
+</violation>
+<violation beginline="65" endline="65" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'itr' could be declared final
+</violation>
+<violation beginline="66" endline="68" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'req' (lines '66'-'68').
+</violation>
+<violation beginline="66" endline="68" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'req' (lines '66'-'68').
+</violation>
+<violation beginline="66" endline="86" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'req' (lines '66'-'86').
+</violation>
+<violation beginline="66" endline="86" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'req' (lines '66'-'86').
+</violation>
+<violation beginline="68" endline="68" begincolumn="0" endcolumn="0" rule="AvoidInstantiatingObjectsInLoops" ruleset="Optimization Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#AvoidInstantiatingObjectsInLoops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="68" endline="69" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'req' (lines '68'-'69').
+</violation>
+<violation beginline="68" endline="69" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'req' (lines '68'-'69').
+</violation>
+<violation beginline="70" endline="70" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'reID' (lines '70'-'70').
+</violation>
+<violation beginline="70" endline="70" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'reID' (lines '70'-'70').
+</violation>
+<violation beginline="70" endline="86" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'reID' (lines '70'-'86').
+</violation>
+<violation beginline="70" endline="86" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'reID' (lines '70'-'86').
+</violation>
+<violation beginline="76" endline="76" begincolumn="0" endcolumn="0" rule="PreserveStackTrace" ruleset="Design Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#PreserveStackTrace" priority="3">
+Caught exception is rethrown, original stack trace may be lost
+</violation>
+<violation beginline="80" endline="80" begincolumn="0" endcolumn="0" rule="PreserveStackTrace" ruleset="Design Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#PreserveStackTrace" priority="3">
+Caught exception is rethrown, original stack trace may be lost
+</violation>
+<violation beginline="92" endline="92" begincolumn="0" endcolumn="0" rule="CloseResource" ruleset="Design Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#CloseResource" priority="3">
+Ensure that resources like this Connection object are closed after use
+</violation>
+<violation beginline="92" endline="104" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'con' (lines '92'-'104').
+</violation>
+<violation beginline="92" endline="104" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'con' (lines '92'-'104').
+</violation>
+<violation beginline="93" endline="106" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'reqDetailsList' (lines '93'-'106').
+</violation>
+<violation beginline="93" endline="106" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'reqDetailsList' (lines '93'-'106').
+</violation>
+<violation beginline="94" endline="101" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'inMap' could be declared final
+</violation>
+<violation beginline="103" endline="103" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'conHolder' could be declared final
+</violation>
+<violation beginline="106" endline="120" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'reqDetailsList' (lines '106'-'120').
+</violation>
+<violation beginline="106" endline="120" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'reqDetailsList' (lines '106'-'120').
+</violation>
+<violation beginline="112" endline="112" begincolumn="0" endcolumn="0" rule="PreserveStackTrace" ruleset="Design Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#PreserveStackTrace" priority="3">
+Caught exception is rethrown, original stack trace may be lost
+</violation>
+<violation beginline="116" endline="116" begincolumn="0" endcolumn="0" rule="PreserveStackTrace" ruleset="Design Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#PreserveStackTrace" priority="3">
+Caught exception is rethrown, original stack trace may be lost
+</violation>
+<violation beginline="125" endline="125" begincolumn="0" endcolumn="0" rule="CloseResource" ruleset="Design Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#CloseResource" priority="3">
+Ensure that resources like this Connection object are closed after use
+</violation>
+<violation beginline="125" endline="131" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'con' (lines '125'-'131').
+</violation>
+<violation beginline="126" endline="133" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'requestList' (lines '126'-'133').
+</violation>
+<violation beginline="133" endline="149" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'requestList' (lines '133'-'149').
+</violation>
+<violation beginline="139" endline="139" begincolumn="0" endcolumn="0" rule="PreserveStackTrace" ruleset="Design Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#PreserveStackTrace" priority="3">
+Caught exception is rethrown, original stack trace may be lost
+</violation>
+<violation beginline="155" endline="155" begincolumn="0" endcolumn="0" rule="CloseResource" ruleset="Design Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#CloseResource" priority="3">
+Ensure that resources like this Connection object are closed after use
+</violation>
+<violation beginline="155" endline="169" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'con' (lines '155'-'169').
+</violation>
+<violation beginline="155" endline="169" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'con' (lines '155'-'169').
+</violation>
+<violation beginline="157" endline="176" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'reqDetails' (lines '157'-'176').
+</violation>
+<violation beginline="157" endline="176" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'reqDetails' (lines '157'-'176').
+</violation>
+<violation beginline="157" endline="190" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'reqDetails' (lines '157'-'190').
+</violation>
+<violation beginline="157" endline="190" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'reqDetails' (lines '157'-'190').
+</violation>
+<violation beginline="159" endline="166" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'inMap' could be declared final
+</violation>
+<violation beginline="176" endline="176" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'reqDetails' (lines '176'-'176').
+</violation>
+<violation beginline="176" endline="176" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'reqDetails' (lines '176'-'176').
+</violation>
+<violation beginline="176" endline="190" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'reqDetails' (lines '176'-'190').
+</violation>
+<violation beginline="176" endline="190" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'reqDetails' (lines '176'-'190').
+</violation>
+<violation beginline="192" endline="291" begincolumn="0" endcolumn="0" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/codesize.html#CyclomaticComplexity" priority="3">
+The method 'saveSRDetails' has a Cyclomatic Complexity of 12.
+</violation>
+<violation beginline="197" endline="197" begincolumn="0" endcolumn="0" rule="CloseResource" ruleset="Design Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#CloseResource" priority="3">
+Ensure that resources like this Connection object are closed after use
+</violation>
+<violation beginline="197" endline="255" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'con' (lines '197'-'255').
+</violation>
+<violation beginline="197" endline="255" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'con' (lines '197'-'255').
+</violation>
+<violation beginline="197" endline="255" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'con' (lines '197'-'255').
+</violation>
+<violation beginline="197" endline="255" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'con' (lines '197'-'255').
+</violation>
+<violation beginline="197" endline="255" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'con' (lines '197'-'255').
+</violation>
+<violation beginline="200" endline="259" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'result' (lines '200'-'259').
+</violation>
+<violation beginline="200" endline="259" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'result' (lines '200'-'259').
+</violation>
+<violation beginline="200" endline="259" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'result' (lines '200'-'259').
+</violation>
+<violation beginline="200" endline="259" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'result' (lines '200'-'259').
+</violation>
+<violation beginline="200" endline="259" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'result' (lines '200'-'259').
+</violation>
+<violation beginline="200" endline="263" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'result' (lines '200'-'263').
+</violation>
+<violation beginline="200" endline="263" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'result' (lines '200'-'263').
+</violation>
+<violation beginline="200" endline="263" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'result' (lines '200'-'263').
+</violation>
+<violation beginline="200" endline="263" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'result' (lines '200'-'263').
+</violation>
+<violation beginline="200" endline="267" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'result' (lines '200'-'267').
+</violation>
+<violation beginline="200" endline="267" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'result' (lines '200'-'267').
+</violation>
+<violation beginline="200" endline="267" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'result' (lines '200'-'267').
+</violation>
+<violation beginline="200" endline="267" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'result' (lines '200'-'267').
+</violation>
+<violation beginline="200" endline="271" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'result' (lines '200'-'271').
+</violation>
+<violation beginline="200" endline="271" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'result' (lines '200'-'271').
+</violation>
+<violation beginline="200" endline="271" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'result' (lines '200'-'271').
+</violation>
+<violation beginline="200" endline="271" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'result' (lines '200'-'271').
+</violation>
+<violation beginline="201" endline="275" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'isInserted' (lines '201'-'275').
+</violation>
+<violation beginline="201" endline="275" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'isInserted' (lines '201'-'275').
+</violation>
+<violation beginline="201" endline="275" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'isInserted' (lines '201'-'275').
+</violation>
+<violation beginline="201" endline="275" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'isInserted' (lines '201'-'275').
+</violation>
+<violation beginline="201" endline="275" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'isInserted' (lines '201'-'275').
+</violation>
+<violation beginline="201" endline="291" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'isInserted' (lines '201'-'291').
+</violation>
+<violation beginline="201" endline="291" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'isInserted' (lines '201'-'291').
+</violation>
+<violation beginline="201" endline="291" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'isInserted' (lines '201'-'291').
+</violation>
+<violation beginline="201" endline="291" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'isInserted' (lines '201'-'291').
+</violation>
+<violation beginline="202" endline="291" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'inMapCancel' (lines '202'-'291').
+</violation>
+<violation beginline="202" endline="291" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'inMapCancel' (lines '202'-'291').
+</violation>
+<violation beginline="202" endline="291" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'inMapCancel' (lines '202'-'291').
+</violation>
+<violation beginline="202" endline="291" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'inMapCancel' (lines '202'-'291').
+</violation>
+<violation beginline="216" endline="291" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'inMapReject' (lines '216'-'291').
+</violation>
+<violation beginline="216" endline="291" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'inMapReject' (lines '216'-'291').
+</violation>
+<violation beginline="216" endline="291" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'inMapReject' (lines '216'-'291').
+</violation>
+<violation beginline="216" endline="291" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'inMapReject' (lines '216'-'291').
+</violation>
+<violation beginline="216" endline="291" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'inMapReject' (lines '216'-'291').
+</violation>
+<violation beginline="230" endline="291" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'inMapAssign' (lines '230'-'291').
+</violation>
+<violation beginline="230" endline="291" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'inMapAssign' (lines '230'-'291').
+</violation>
+<violation beginline="230" endline="291" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'inMapAssign' (lines '230'-'291').
+</violation>
+<violation beginline="230" endline="291" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'inMapAssign' (lines '230'-'291').
+</violation>
+<violation beginline="230" endline="291" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'inMapAssign' (lines '230'-'291').
+</violation>
+<violation beginline="242" endline="291" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'inMapComplete' (lines '242'-'291').
+</violation>
+<violation beginline="242" endline="291" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'inMapComplete' (lines '242'-'291').
+</violation>
+<violation beginline="242" endline="291" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'inMapComplete' (lines '242'-'291').
+</violation>
+<violation beginline="242" endline="291" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'inMapComplete' (lines '242'-'291').
+</violation>
+<violation beginline="242" endline="291" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'inMapComplete' (lines '242'-'291').
+</violation>
+<violation beginline="255" endline="291" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'con' (lines '255'-'291').
+</violation>
+<violation beginline="255" endline="291" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'con' (lines '255'-'291').
+</violation>
+<violation beginline="255" endline="291" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'con' (lines '255'-'291').
+</violation>
+<violation beginline="255" endline="291" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'con' (lines '255'-'291').
+</violation>
+<violation beginline="275" endline="291" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'isInserted' (lines '275'-'291').
+</violation>
+<violation beginline="275" endline="291" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'isInserted' (lines '275'-'291').
+</violation>
+<violation beginline="275" endline="291" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'isInserted' (lines '275'-'291').
+</violation>
+<violation beginline="275" endline="291" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'isInserted' (lines '275'-'291').
+</violation>
+<violation beginline="275" endline="291" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'isInserted' (lines '275'-'291').
+</violation>
+</file>
+<file name="src/com/nttdata/infra/dao/RequestDAOTest.java">
+<violation beginline="14" endline="337" begincolumn="0" endcolumn="0" rule="AtLeastOneConstructor" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#AtLeastOneConstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="15" endline="15" begincolumn="0" endcolumn="0" rule="BeanMembersShouldSerialize" ruleset="JavaBean Rules" package="com.nttdata.infra.dao" class="RequestDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="15" endline="15" begincolumn="0" endcolumn="0" rule="DefaultPackage" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DefaultPackage" priority="3">
+Use explicit scoping instead of the default package private level
+</violation>
+<violation beginline="16" endline="16" begincolumn="0" endcolumn="0" rule="BeanMembersShouldSerialize" ruleset="JavaBean Rules" package="com.nttdata.infra.dao" class="RequestDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="16" endline="16" begincolumn="0" endcolumn="0" rule="DefaultPackage" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DefaultPackage" priority="3">
+Use explicit scoping instead of the default package private level
+</violation>
+<violation beginline="21" endline="21" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.dao" class="RequestDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'newReq' could be declared final
+</violation>
+<violation beginline="22" endline="22" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.dao" class="RequestDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'test' could be declared final
+</violation>
+<violation beginline="23" endline="23" begincolumn="0" endcolumn="0" rule="ShortVariable" ruleset="Naming Rules" package="com.nttdata.infra.dao" class="RequestDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like id
+</violation>
+<violation beginline="23" endline="40" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'id' (lines '23'-'40').
+</violation>
+<violation beginline="41" endline="41" begincolumn="0" endcolumn="0" rule="SystemPrintln" ruleset="Java Logging Rules" package="com.nttdata.infra.dao" class="RequestDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/logging-java.html#SystemPrintln" priority="2">
+System.out.print is used
+</violation>
+<violation beginline="42" endline="42" begincolumn="0" endcolumn="0" rule="JUnitAssertionsShouldIncludeMessage" ruleset="JUnit Rules" package="com.nttdata.infra.dao" class="RequestDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/junit.html#JUnitAssertionsShouldIncludeMessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="45" endline="45" begincolumn="0" endcolumn="0" rule="AvoidPrintStackTrace" ruleset="Java Logging Rules" package="com.nttdata.infra.dao" class="RequestDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/logging-java.html#AvoidPrintStackTrace" priority="3">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="52" endline="52" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.dao" class="RequestDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'test' could be declared final
+</violation>
+<violation beginline="53" endline="53" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.dao" class="RequestDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'req1' could be declared final
+</violation>
+<violation beginline="54" endline="54" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.dao" class="RequestDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'req2' could be declared final
+</violation>
+<violation beginline="55" endline="67" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'dataList' (lines '55'-'67').
+</violation>
+<violation beginline="71" endline="71" begincolumn="0" endcolumn="0" rule="JUnitAssertionsShouldIncludeMessage" ruleset="JUnit Rules" package="com.nttdata.infra.dao" class="RequestDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/junit.html#JUnitAssertionsShouldIncludeMessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="75" endline="75" begincolumn="0" endcolumn="0" rule="AvoidPrintStackTrace" ruleset="Java Logging Rules" package="com.nttdata.infra.dao" class="RequestDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/logging-java.html#AvoidPrintStackTrace" priority="3">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="86" endline="98" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'dataList' (lines '86'-'98').
+</violation>
+<violation beginline="102" endline="102" begincolumn="0" endcolumn="0" rule="JUnitAssertionsShouldIncludeMessage" ruleset="JUnit Rules" package="com.nttdata.infra.dao" class="RequestDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/junit.html#JUnitAssertionsShouldIncludeMessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="106" endline="106" begincolumn="0" endcolumn="0" rule="AvoidPrintStackTrace" ruleset="Java Logging Rules" package="com.nttdata.infra.dao" class="RequestDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/logging-java.html#AvoidPrintStackTrace" priority="3">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="114" endline="129" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'allList' (lines '114'-'129').
+</violation>
+<violation beginline="125" endline="132" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'getReq' (lines '125'-'132').
+</violation>
+<violation beginline="125" endline="143" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'getReq' (lines '125'-'143').
+</violation>
+<violation beginline="126" endline="134" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'request' (lines '126'-'134').
+</violation>
+<violation beginline="134" endline="134" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'request' (lines '134'-'134').
+</violation>
+<violation beginline="137" endline="137" begincolumn="0" endcolumn="0" rule="JUnitAssertionsShouldIncludeMessage" ruleset="JUnit Rules" package="com.nttdata.infra.dao" class="RequestDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/junit.html#JUnitAssertionsShouldIncludeMessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="141" endline="141" begincolumn="0" endcolumn="0" rule="AvoidPrintStackTrace" ruleset="Java Logging Rules" package="com.nttdata.infra.dao" class="RequestDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/logging-java.html#AvoidPrintStackTrace" priority="3">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="148" endline="163" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'allList' (lines '148'-'163').
+</violation>
+<violation beginline="159" endline="166" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'actreq' (lines '159'-'166').
+</violation>
+<violation beginline="159" endline="177" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'actreq' (lines '159'-'177').
+</violation>
+<violation beginline="160" endline="168" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'request' (lines '160'-'168').
+</violation>
+<violation beginline="168" endline="168" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'request' (lines '168'-'168').
+</violation>
+<violation beginline="171" endline="171" begincolumn="0" endcolumn="0" rule="JUnitAssertionsShouldIncludeMessage" ruleset="JUnit Rules" package="com.nttdata.infra.dao" class="RequestDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/junit.html#JUnitAssertionsShouldIncludeMessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="175" endline="175" begincolumn="0" endcolumn="0" rule="AvoidPrintStackTrace" ruleset="Java Logging Rules" package="com.nttdata.infra.dao" class="RequestDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/logging-java.html#AvoidPrintStackTrace" priority="3">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="182" endline="203" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'isUpdated' (lines '182'-'203').
+</violation>
+<violation beginline="185" endline="185" begincolumn="0" endcolumn="0" rule="UnusedLocalVariable" ruleset="Unused Code Rules" package="com.nttdata.infra.dao" class="RequestDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedLocalVariable" priority="3">
+Avoid unused local variables such as 'id'.
+</violation>
+<violation beginline="185" endline="185" begincolumn="0" endcolumn="0" rule="ShortVariable" ruleset="Naming Rules" package="com.nttdata.infra.dao" class="RequestDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like id
+</violation>
+<violation beginline="185" endline="210" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'id' (lines '185'-'210').
+</violation>
+<violation beginline="215" endline="236" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'isUpdated' (lines '215'-'236').
+</violation>
+<violation beginline="218" endline="218" begincolumn="0" endcolumn="0" rule="UnusedLocalVariable" ruleset="Unused Code Rules" package="com.nttdata.infra.dao" class="RequestDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedLocalVariable" priority="3">
+Avoid unused local variables such as 'id'.
+</violation>
+<violation beginline="218" endline="218" begincolumn="0" endcolumn="0" rule="ShortVariable" ruleset="Naming Rules" package="com.nttdata.infra.dao" class="RequestDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like id
+</violation>
+<violation beginline="218" endline="243" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'id' (lines '218'-'243').
+</violation>
+<violation beginline="249" endline="268" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'req' (lines '249'-'268').
+</violation>
+<violation beginline="280" endline="298" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'req' (lines '280'-'298').
+</violation>
+<violation beginline="310" endline="328" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'req' (lines '310'-'328').
+</violation>
+</file>
+<file name="src/com/nttdata/infra/dao/RequestTypeDAO.java">
+<violation beginline="15" endline="44" begincolumn="0" endcolumn="0" rule="AtLeastOneConstructor" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestTypeDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#AtLeastOneConstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="21" endline="21" begincolumn="0" endcolumn="0" rule="CloseResource" ruleset="Design Rules" package="com.nttdata.infra.dao" class="RequestTypeDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#CloseResource" priority="3">
+Ensure that resources like this Connection object are closed after use
+</violation>
+<violation beginline="21" endline="27" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestTypeDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'con' (lines '21'-'27').
+</violation>
+<violation beginline="22" endline="29" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestTypeDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'reqTypeList' (lines '22'-'29').
+</violation>
+<violation beginline="29" endline="43" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestTypeDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'reqTypeList' (lines '29'-'43').
+</violation>
+<violation beginline="34" endline="34" begincolumn="0" endcolumn="0" rule="PreserveStackTrace" ruleset="Design Rules" package="com.nttdata.infra.dao" class="RequestTypeDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#PreserveStackTrace" priority="3">
+Caught exception is rethrown, original stack trace may be lost
+</violation>
+<violation beginline="38" endline="38" begincolumn="0" endcolumn="0" rule="PreserveStackTrace" ruleset="Design Rules" package="com.nttdata.infra.dao" class="RequestTypeDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#PreserveStackTrace" priority="3">
+Caught exception is rethrown, original stack trace may be lost
+</violation>
+</file>
+<file name="src/com/nttdata/infra/dao/RequestTypeDAOTest.java">
+<violation beginline="13" endline="91" begincolumn="0" endcolumn="0" rule="AtLeastOneConstructor" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestTypeDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#AtLeastOneConstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="17" endline="38" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestTypeDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'typeList' (lines '17'-'38').
+</violation>
+<violation beginline="18" endline="18" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.dao" class="RequestTypeDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'correctList' could be declared final
+</violation>
+<violation beginline="19" endline="19" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.dao" class="RequestTypeDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'type1' could be declared final
+</violation>
+<violation beginline="20" endline="20" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.dao" class="RequestTypeDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'type2' could be declared final
+</violation>
+<violation beginline="21" endline="21" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.dao" class="RequestTypeDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'type3' could be declared final
+</violation>
+<violation beginline="36" endline="36" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.dao" class="RequestTypeDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'test' could be declared final
+</violation>
+<violation beginline="44" endline="44" begincolumn="0" endcolumn="0" rule="JUnitAssertionsShouldIncludeMessage" ruleset="JUnit Rules" package="com.nttdata.infra.dao" class="RequestTypeDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/junit.html#JUnitAssertionsShouldIncludeMessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="49" endline="49" begincolumn="0" endcolumn="0" rule="AvoidPrintStackTrace" ruleset="Java Logging Rules" package="com.nttdata.infra.dao" class="RequestTypeDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/logging-java.html#AvoidPrintStackTrace" priority="3">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="55" endline="76" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="RequestTypeDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'typeList' (lines '55'-'76').
+</violation>
+<violation beginline="82" endline="82" begincolumn="0" endcolumn="0" rule="JUnitAssertionsShouldIncludeMessage" ruleset="JUnit Rules" package="com.nttdata.infra.dao" class="RequestTypeDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/junit.html#JUnitAssertionsShouldIncludeMessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="87" endline="87" begincolumn="0" endcolumn="0" rule="AvoidPrintStackTrace" ruleset="Java Logging Rules" package="com.nttdata.infra.dao" class="RequestTypeDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/logging-java.html#AvoidPrintStackTrace" priority="3">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+</file>
+<file name="src/com/nttdata/infra/dao/SQLMapper.java">
+<violation beginline="17" endline="120" begincolumn="0" endcolumn="0" rule="AtLeastOneConstructor" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="SQLMapper" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#AtLeastOneConstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="20" endline="20" begincolumn="0" endcolumn="0" rule="LongVariable" ruleset="Naming Rules" package="com.nttdata.infra.dao" class="SQLMapper" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#LongVariable" priority="3">
+Avoid excessively long variable names like REQUEST_BY_CREATOR
+</violation>
+<violation beginline="26" endline="26" begincolumn="0" endcolumn="0" rule="LongVariable" ruleset="Naming Rules" package="com.nttdata.infra.dao" class="SQLMapper" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#LongVariable" priority="3">
+Avoid excessively long variable names like GET_REQUEST_DETIALS
+</violation>
+<violation beginline="30" endline="30" begincolumn="0" endcolumn="0" rule="LongVariable" ruleset="Naming Rules" package="com.nttdata.infra.dao" class="SQLMapper" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#LongVariable" priority="3">
+Avoid excessively long variable names like GET_STATUS_DETAILS
+</violation>
+<violation beginline="38" endline="38" begincolumn="0" endcolumn="0" rule="LongVariable" ruleset="Naming Rules" package="com.nttdata.infra.dao" class="SQLMapper" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#LongVariable" priority="3">
+Avoid excessively long variable names like UPDATE_ON_COMPLETE
+</violation>
+<violation beginline="46" endline="46" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.dao" class="SQLMapper" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'resSet' is not assigned and could be declared final
+</violation>
+<violation beginline="47" endline="47" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.dao" class="SQLMapper" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'userDetails' could be declared final
+</violation>
+<violation beginline="56" endline="56" begincolumn="0" endcolumn="0" rule="LongVariable" ruleset="Naming Rules" package="com.nttdata.infra.dao" class="SQLMapper" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#LongVariable" priority="3">
+Avoid excessively long variable names like SR_DETAILS_RES_MAPPER
+</violation>
+<violation beginline="58" endline="58" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.dao" class="SQLMapper" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'resSet' is not assigned and could be declared final
+</violation>
+<violation beginline="59" endline="59" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.dao" class="SQLMapper" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'srDetails' could be declared final
+</violation>
+<violation beginline="82" endline="82" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.dao" class="SQLMapper" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'resSet' is not assigned and could be declared final
+</violation>
+<violation beginline="83" endline="83" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.dao" class="SQLMapper" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'stDetails' could be declared final
+</violation>
+<violation beginline="84" endline="84" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.dao" class="SQLMapper" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'role' could be declared final
+</violation>
+<violation beginline="95" endline="95" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.dao" class="SQLMapper" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'resSet' is not assigned and could be declared final
+</violation>
+<violation beginline="96" endline="96" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.dao" class="SQLMapper" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'stDetails' could be declared final
+</violation>
+<violation beginline="104" endline="104" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.dao" class="SQLMapper" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'resSet' is not assigned and could be declared final
+</violation>
+</file>
+<file name="src/com/nttdata/infra/dao/StatusDAO.java">
+<violation beginline="21" endline="90" begincolumn="0" endcolumn="0" rule="AtLeastOneConstructor" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="StatusDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#AtLeastOneConstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="29" endline="29" begincolumn="0" endcolumn="0" rule="CloseResource" ruleset="Design Rules" package="com.nttdata.infra.dao" class="StatusDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#CloseResource" priority="3">
+Ensure that resources like this Connection object are closed after use
+</violation>
+<violation beginline="29" endline="43" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="StatusDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'con' (lines '29'-'43').
+</violation>
+<violation beginline="29" endline="43" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="StatusDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'con' (lines '29'-'43').
+</violation>
+<violation beginline="32" endline="40" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.dao" class="StatusDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'inMap' could be declared final
+</violation>
+<violation beginline="45" endline="59" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="StatusDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'statusList' (lines '45'-'59').
+</violation>
+<violation beginline="45" endline="59" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="StatusDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'statusList' (lines '45'-'59').
+</violation>
+<violation beginline="51" endline="51" begincolumn="0" endcolumn="0" rule="PreserveStackTrace" ruleset="Design Rules" package="com.nttdata.infra.dao" class="StatusDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#PreserveStackTrace" priority="3">
+Caught exception is rethrown, original stack trace may be lost
+</violation>
+<violation beginline="55" endline="55" begincolumn="0" endcolumn="0" rule="PreserveStackTrace" ruleset="Design Rules" package="com.nttdata.infra.dao" class="StatusDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#PreserveStackTrace" priority="3">
+Caught exception is rethrown, original stack trace may be lost
+</violation>
+</file>
+<file name="src/com/nttdata/infra/dao/StatusDAOTest.java">
+<violation beginline="14" endline="112" begincolumn="0" endcolumn="0" rule="AtLeastOneConstructor" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="StatusDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#AtLeastOneConstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="18" endline="32" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="StatusDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'statusList' (lines '18'-'32').
+</violation>
+<violation beginline="19" endline="19" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.dao" class="StatusDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'sts' could be declared final
+</violation>
+<violation beginline="20" endline="20" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.dao" class="StatusDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'role2' could be declared final
+</violation>
+<violation beginline="21" endline="21" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.dao" class="StatusDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'stat1' could be declared final
+</violation>
+<violation beginline="22" endline="35" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="StatusDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'getSts' (lines '22'-'35').
+</violation>
+<violation beginline="22" endline="49" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="StatusDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'getSts' (lines '22'-'49').
+</violation>
+<violation beginline="23" endline="37" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="StatusDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'stat' (lines '23'-'37').
+</violation>
+<violation beginline="33" endline="33" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.dao" class="StatusDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'itr' could be declared final
+</violation>
+<violation beginline="37" endline="37" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="StatusDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'stat' (lines '37'-'37').
+</violation>
+<violation beginline="42" endline="42" begincolumn="0" endcolumn="0" rule="JUnitAssertionsShouldIncludeMessage" ruleset="JUnit Rules" package="com.nttdata.infra.dao" class="StatusDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/junit.html#JUnitAssertionsShouldIncludeMessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="46" endline="46" begincolumn="0" endcolumn="0" rule="AvoidPrintStackTrace" ruleset="Java Logging Rules" package="com.nttdata.infra.dao" class="StatusDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/logging-java.html#AvoidPrintStackTrace" priority="3">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="53" endline="53" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.dao" class="StatusDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'role1' could be declared final
+</violation>
+<violation beginline="54" endline="68" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="StatusDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'myStat' (lines '54'-'68').
+</violation>
+<violation beginline="54" endline="79" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="StatusDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'myStat' (lines '54'-'79').
+</violation>
+<violation beginline="57" endline="70" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="StatusDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'stats' (lines '57'-'70').
+</violation>
+<violation beginline="58" endline="65" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="StatusDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'getList' (lines '58'-'65').
+</violation>
+<violation beginline="70" endline="70" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="StatusDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'stats' (lines '70'-'70').
+</violation>
+<violation beginline="73" endline="73" begincolumn="0" endcolumn="0" rule="JUnitAssertionsShouldIncludeMessage" ruleset="JUnit Rules" package="com.nttdata.infra.dao" class="StatusDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/junit.html#JUnitAssertionsShouldIncludeMessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="76" endline="76" begincolumn="0" endcolumn="0" rule="AvoidPrintStackTrace" ruleset="Java Logging Rules" package="com.nttdata.infra.dao" class="StatusDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/logging-java.html#AvoidPrintStackTrace" priority="3">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="88" endline="100" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="StatusDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'stats' (lines '88'-'100').
+</violation>
+<violation beginline="89" endline="98" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="StatusDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'myStat' (lines '89'-'98').
+</violation>
+<violation beginline="89" endline="110" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="StatusDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'myStat' (lines '89'-'110').
+</violation>
+<violation beginline="90" endline="95" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="StatusDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'getList' (lines '90'-'95').
+</violation>
+<violation beginline="100" endline="100" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="StatusDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'stats' (lines '100'-'100').
+</violation>
+<violation beginline="103" endline="103" begincolumn="0" endcolumn="0" rule="JUnitAssertionsShouldIncludeMessage" ruleset="JUnit Rules" package="com.nttdata.infra.dao" class="StatusDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/junit.html#JUnitAssertionsShouldIncludeMessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="107" endline="107" begincolumn="0" endcolumn="0" rule="AvoidPrintStackTrace" ruleset="Java Logging Rules" package="com.nttdata.infra.dao" class="StatusDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/logging-java.html#AvoidPrintStackTrace" priority="3">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+</file>
+<file name="src/com/nttdata/infra/dao/UserDAO.java">
+<violation beginline="23" endline="67" begincolumn="0" endcolumn="0" rule="AtLeastOneConstructor" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="UserDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#AtLeastOneConstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="31" endline="31" begincolumn="0" endcolumn="0" rule="CloseResource" ruleset="Design Rules" package="com.nttdata.infra.dao" class="UserDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#CloseResource" priority="3">
+Ensure that resources like this Connection object are closed after use
+</violation>
+<violation beginline="31" endline="46" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="UserDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'con' (lines '31'-'46').
+</violation>
+<violation beginline="31" endline="46" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="UserDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'con' (lines '31'-'46').
+</violation>
+<violation beginline="32" endline="48" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="UserDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'userList' (lines '32'-'48').
+</violation>
+<violation beginline="32" endline="48" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="UserDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'userList' (lines '32'-'48').
+</violation>
+<violation beginline="33" endline="52" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="UserDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'user1' (lines '33'-'52').
+</violation>
+<violation beginline="33" endline="52" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="UserDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'user1' (lines '33'-'52').
+</violation>
+<violation beginline="33" endline="66" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="UserDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'user1' (lines '33'-'66').
+</violation>
+<violation beginline="33" endline="66" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="UserDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'user1' (lines '33'-'66').
+</violation>
+<violation beginline="34" endline="45" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="UserDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'conHolder' (lines '34'-'45').
+</violation>
+<violation beginline="34" endline="45" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="UserDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'conHolder' (lines '34'-'45').
+</violation>
+<violation beginline="35" endline="43" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.dao" class="UserDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'inMap' could be declared final
+</violation>
+<violation beginline="46" endline="47" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="UserDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'con' (lines '46'-'47').
+</violation>
+<violation beginline="46" endline="47" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="UserDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'con' (lines '46'-'47').
+</violation>
+<violation beginline="50" endline="50" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.dao" class="UserDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'itr' could be declared final
+</violation>
+<violation beginline="52" endline="52" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="UserDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'user1' (lines '52'-'52').
+</violation>
+<violation beginline="52" endline="52" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="UserDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'user1' (lines '52'-'52').
+</violation>
+<violation beginline="52" endline="66" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="UserDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'user1' (lines '52'-'66').
+</violation>
+<violation beginline="52" endline="66" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="UserDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'user1' (lines '52'-'66').
+</violation>
+<violation beginline="57" endline="57" begincolumn="0" endcolumn="0" rule="PreserveStackTrace" ruleset="Design Rules" package="com.nttdata.infra.dao" class="UserDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#PreserveStackTrace" priority="3">
+Caught exception is rethrown, original stack trace may be lost
+</violation>
+<violation beginline="62" endline="62" begincolumn="0" endcolumn="0" rule="PreserveStackTrace" ruleset="Design Rules" package="com.nttdata.infra.dao" class="UserDAO" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#PreserveStackTrace" priority="3">
+Caught exception is rethrown, original stack trace may be lost
+</violation>
+</file>
+<file name="src/com/nttdata/infra/dao/UserDAOTest.java">
+<violation beginline="9" endline="94" begincolumn="0" endcolumn="0" rule="AtLeastOneConstructor" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="UserDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#AtLeastOneConstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="13" endline="18" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="UserDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'login' (lines '13'-'18').
+</violation>
+<violation beginline="14" endline="14" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.dao" class="UserDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'test' could be declared final
+</violation>
+<violation beginline="15" endline="21" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="UserDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'validate' (lines '15'-'21').
+</violation>
+<violation beginline="15" endline="23" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="UserDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'validate' (lines '15'-'23').
+</violation>
+<violation beginline="20" endline="24" begincolumn="0" endcolumn="0" rule="ConfusingTernary" ruleset="Design Rules" package="com.nttdata.infra.dao" class="UserDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#ConfusingTernary" priority="3">
+Avoid if (x != y) ..; else ..;
+</violation>
+<violation beginline="25" endline="25" begincolumn="0" endcolumn="0" rule="JUnitAssertionsShouldIncludeMessage" ruleset="JUnit Rules" package="com.nttdata.infra.dao" class="UserDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/junit.html#JUnitAssertionsShouldIncludeMessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="28" endline="28" begincolumn="0" endcolumn="0" rule="AvoidPrintStackTrace" ruleset="Java Logging Rules" package="com.nttdata.infra.dao" class="UserDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/logging-java.html#AvoidPrintStackTrace" priority="3">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="34" endline="39" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="UserDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'login' (lines '34'-'39').
+</violation>
+<violation beginline="35" endline="35" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.dao" class="UserDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'test' could be declared final
+</violation>
+<violation beginline="36" endline="42" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="UserDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'validate' (lines '36'-'42').
+</violation>
+<violation beginline="36" endline="44" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="UserDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'validate' (lines '36'-'44').
+</violation>
+<violation beginline="46" endline="46" begincolumn="0" endcolumn="0" rule="JUnitAssertionsShouldIncludeMessage" ruleset="JUnit Rules" package="com.nttdata.infra.dao" class="UserDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/junit.html#JUnitAssertionsShouldIncludeMessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="49" endline="49" begincolumn="0" endcolumn="0" rule="AvoidPrintStackTrace" ruleset="Java Logging Rules" package="com.nttdata.infra.dao" class="UserDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/logging-java.html#AvoidPrintStackTrace" priority="3">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="55" endline="60" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="UserDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'login' (lines '55'-'60').
+</violation>
+<violation beginline="56" endline="56" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.dao" class="UserDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'test' could be declared final
+</violation>
+<violation beginline="57" endline="63" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="UserDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'validate' (lines '57'-'63').
+</violation>
+<violation beginline="57" endline="65" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="UserDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'validate' (lines '57'-'65').
+</violation>
+<violation beginline="67" endline="67" begincolumn="0" endcolumn="0" rule="JUnitAssertionsShouldIncludeMessage" ruleset="JUnit Rules" package="com.nttdata.infra.dao" class="UserDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/junit.html#JUnitAssertionsShouldIncludeMessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="70" endline="70" begincolumn="0" endcolumn="0" rule="AvoidPrintStackTrace" ruleset="Java Logging Rules" package="com.nttdata.infra.dao" class="UserDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/logging-java.html#AvoidPrintStackTrace" priority="3">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="76" endline="81" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="UserDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'login' (lines '76'-'81').
+</violation>
+<violation beginline="77" endline="77" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.dao" class="UserDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'test' could be declared final
+</violation>
+<violation beginline="78" endline="84" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="UserDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'validate' (lines '78'-'84').
+</violation>
+<violation beginline="78" endline="86" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.dao" class="UserDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'validate' (lines '78'-'86').
+</violation>
+<violation beginline="88" endline="88" begincolumn="0" endcolumn="0" rule="JUnitAssertionsShouldIncludeMessage" ruleset="JUnit Rules" package="com.nttdata.infra.dao" class="UserDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/junit.html#JUnitAssertionsShouldIncludeMessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="91" endline="91" begincolumn="0" endcolumn="0" rule="AvoidPrintStackTrace" ruleset="Java Logging Rules" package="com.nttdata.infra.dao" class="UserDAOTest" externalInfoUrl="http://pmd.sourceforge.net/rules/logging-java.html#AvoidPrintStackTrace" priority="3">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+</file>
+<file name="src/com/nttdata/infra/domain/RequestDetails.java">
+<violation beginline="11" endline="11" begincolumn="0" endcolumn="0" rule="BeanMembersShouldSerialize" ruleset="JavaBean Rules" package="com.nttdata.infra.domain" class="RequestDetails" externalInfoUrl="http://pmd.sourceforge.net/rules/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="12" endline="12" begincolumn="0" endcolumn="0" rule="BeanMembersShouldSerialize" ruleset="JavaBean Rules" package="com.nttdata.infra.domain" class="RequestDetails" externalInfoUrl="http://pmd.sourceforge.net/rules/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="17" endline="17" begincolumn="0" endcolumn="0" rule="BeanMembersShouldSerialize" ruleset="JavaBean Rules" package="com.nttdata.infra.domain" class="RequestDetails" externalInfoUrl="http://pmd.sourceforge.net/rules/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="20" endline="20" begincolumn="0" endcolumn="0" rule="LongVariable" ruleset="Naming Rules" package="com.nttdata.infra.domain" class="RequestDetails" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#LongVariable" priority="3">
+Avoid excessively long variable names like cancellationReason
+</violation>
+<violation beginline="21" endline="21" begincolumn="0" endcolumn="0" rule="BeanMembersShouldSerialize" ruleset="JavaBean Rules" package="com.nttdata.infra.domain" class="RequestDetails" externalInfoUrl="http://pmd.sourceforge.net/rules/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="44" endline="47" begincolumn="0" endcolumn="0" rule="ExcessiveParameterList" ruleset="Code Size Rules" package="com.nttdata.infra.domain" class="RequestDetails" externalInfoUrl="http://pmd.sourceforge.net/rules/codesize.html#ExcessiveParameterList" priority="3">
+Avoid really long parameter lists.
+</violation>
+<violation beginline="44" endline="67" begincolumn="0" endcolumn="0" rule="UnusedFormalParameter" ruleset="Unused Code Rules" package="com.nttdata.infra.domain" class="RequestDetails" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedFormalParameter" priority="3">
+Avoid unused constructor parameters such as 'reqTypeId'.
+</violation>
+<violation beginline="46" endline="46" begincolumn="0" endcolumn="0" rule="LongVariable" ruleset="Naming Rules" package="com.nttdata.infra.domain" class="RequestDetails" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#LongVariable" priority="3">
+Avoid excessively long variable names like cancellationReason
+</violation>
+<violation beginline="91" endline="91" begincolumn="0" endcolumn="0" rule="LongVariable" ruleset="Naming Rules" package="com.nttdata.infra.domain" class="RequestDetails" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#LongVariable" priority="3">
+Avoid excessively long variable names like cancellationReason
+</violation>
+<violation beginline="91" endline="91" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.domain" class="RequestDetails" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'cancellationReason' is not assigned and could be declared final
+</violation>
+<violation beginline="91" endline="91" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.domain" class="RequestDetails" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'statusId' is not assigned and could be declared final
+</violation>
+<violation beginline="96" endline="96" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.domain" class="RequestDetails" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'rejectionReason' is not assigned and could be declared final
+</violation>
+<violation beginline="96" endline="96" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.domain" class="RequestDetails" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'statusid' is not assigned and could be declared final
+</violation>
+<violation beginline="101" endline="101" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.domain" class="RequestDetails" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'completedDate' is not assigned and could be declared final
+</violation>
+<violation beginline="103" endline="103" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.domain" class="RequestDetails" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'complete' could be declared final
+</violation>
+<violation beginline="104" endline="104" begincolumn="0" endcolumn="0" rule="UnnecessaryLocalBeforeReturn" ruleset="Design Rules" package="com.nttdata.infra.domain" class="RequestDetails" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#UnnecessaryLocalBeforeReturn" priority="3">
+Consider simply returning the value vs storing it in local variable 'complete'
+</violation>
+<violation beginline="109" endline="109" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.domain" class="RequestDetails" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'assigned' could be declared final
+</violation>
+<violation beginline="110" endline="110" begincolumn="0" endcolumn="0" rule="UnnecessaryLocalBeforeReturn" ruleset="Design Rules" package="com.nttdata.infra.domain" class="RequestDetails" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#UnnecessaryLocalBeforeReturn" priority="3">
+Consider simply returning the value vs storing it in local variable 'assigned'
+</violation>
+<violation beginline="189" endline="189" begincolumn="0" endcolumn="0" rule="LongVariable" ruleset="Naming Rules" package="com.nttdata.infra.domain" class="RequestDetails" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#LongVariable" priority="3">
+Avoid excessively long variable names like cancellationReason
+</violation>
+<violation beginline="256" endline="260" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.domain" class="RequestDetails" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'isSame' (lines '256'-'260').
+</violation>
+<violation beginline="257" endline="257" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.domain" class="RequestDetails" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'details' could be declared final
+</violation>
+</file>
+<file name="src/com/nttdata/infra/domain/RequestType.java">
+<violation beginline="4" endline="4" begincolumn="0" endcolumn="0" rule="ShortVariable" ruleset="Naming Rules" package="com.nttdata.infra.domain" class="RequestType" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like id
+</violation>
+<violation beginline="7" endline="7" begincolumn="0" endcolumn="0" rule="ShortVariable" ruleset="Naming Rules" package="com.nttdata.infra.domain" class="RequestType" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like id
+</violation>
+<violation beginline="21" endline="21" begincolumn="0" endcolumn="0" rule="ShortVariable" ruleset="Naming Rules" package="com.nttdata.infra.domain" class="RequestType" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like id
+</violation>
+<violation beginline="21" endline="21" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.domain" class="RequestType" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'id' is not assigned and could be declared final
+</violation>
+<violation beginline="29" endline="29" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.domain" class="RequestType" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'desc' is not assigned and could be declared final
+</violation>
+<violation beginline="45" endline="45" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.domain" class="RequestType" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'obj' is not assigned and could be declared final
+</violation>
+<violation beginline="47" endline="50" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.domain" class="RequestType" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'isSame' (lines '47'-'50').
+</violation>
+<violation beginline="48" endline="48" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.domain" class="RequestType" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'details' could be declared final
+</violation>
+</file>
+<file name="src/com/nttdata/infra/domain/Role.java">
+<violation beginline="4" endline="4" begincolumn="0" endcolumn="0" rule="ShortVariable" ruleset="Naming Rules" package="com.nttdata.infra.domain" class="Role" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like id
+</violation>
+<violation beginline="7" endline="9" begincolumn="0" endcolumn="0" rule="UnnecessaryConstructor" ruleset="Controversial Rules" package="com.nttdata.infra.domain" class="Role" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#UnnecessaryConstructor" priority="3">
+Avoid unnecessary constructors - the compiler will generate these for you
+</violation>
+<violation beginline="7" endline="9" begincolumn="0" endcolumn="0" rule="UncommentedEmptyConstructor" ruleset="Design Rules" package="com.nttdata.infra.domain" class="Role" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#UncommentedEmptyConstructor" priority="3">
+Document empty constructor
+</violation>
+<violation beginline="15" endline="15" begincolumn="0" endcolumn="0" rule="ShortVariable" ruleset="Naming Rules" package="com.nttdata.infra.domain" class="Role" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like id
+</violation>
+<violation beginline="15" endline="15" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.domain" class="Role" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'id' is not assigned and could be declared final
+</violation>
+<violation beginline="23" endline="23" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.domain" class="Role" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'name' is not assigned and could be declared final
+</violation>
+</file>
+<file name="src/com/nttdata/infra/domain/Status.java">
+<violation beginline="6" endline="6" begincolumn="0" endcolumn="0" rule="DefaultPackage" ruleset="Controversial Rules" package="com.nttdata.infra.domain" class="Status" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DefaultPackage" priority="3">
+Use explicit scoping instead of the default package private level
+</violation>
+<violation beginline="22" endline="22" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.domain" class="Status" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'statusId' is not assigned and could be declared final
+</violation>
+<violation beginline="30" endline="30" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.domain" class="Status" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'statusDesc' is not assigned and could be declared final
+</violation>
+<violation beginline="38" endline="38" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.domain" class="Status" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'role' is not assigned and could be declared final
+</violation>
+<violation beginline="54" endline="54" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.domain" class="Status" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'obj' is not assigned and could be declared final
+</violation>
+<violation beginline="56" endline="59" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.domain" class="Status" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'isSame' (lines '56'-'59').
+</violation>
+<violation beginline="57" endline="57" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.domain" class="Status" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'sts' could be declared final
+</violation>
+</file>
+<file name="src/com/nttdata/infra/domain/User.java">
+<violation beginline="4" endline="4" begincolumn="0" endcolumn="0" rule="ShortVariable" ruleset="Naming Rules" package="com.nttdata.infra.domain" class="User" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like id
+</violation>
+<violation beginline="9" endline="9" begincolumn="0" endcolumn="0" rule="ShortVariable" ruleset="Naming Rules" package="com.nttdata.infra.domain" class="User" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like id
+</violation>
+<violation beginline="25" endline="25" begincolumn="0" endcolumn="0" rule="ShortVariable" ruleset="Naming Rules" package="com.nttdata.infra.domain" class="User" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like id
+</violation>
+<violation beginline="25" endline="25" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.domain" class="User" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'id' is not assigned and could be declared final
+</violation>
+<violation beginline="33" endline="33" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.domain" class="User" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'passwd' is not assigned and could be declared final
+</violation>
+<violation beginline="41" endline="41" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.domain" class="User" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'name' is not assigned and could be declared final
+</violation>
+<violation beginline="49" endline="49" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.domain" class="User" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'rollId' is not assigned and could be declared final
+</violation>
+</file>
+<file name="src/com/nttdata/infra/service/InfraSystemFacade.java">
+<violation beginline="22" endline="182" begincolumn="0" endcolumn="0" rule="AtLeastOneConstructor" ruleset="Controversial Rules" package="com.nttdata.infra.service" class="InfraSystemFacade" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#AtLeastOneConstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="27" endline="27" begincolumn="0" endcolumn="0" rule="AvoidDuplicateLiterals" ruleset="String and StringBuffer Rules" package="com.nttdata.infra.service" class="InfraSystemFacade" externalInfoUrl="http://pmd.sourceforge.net/rules/strings.html#AvoidDuplicateLiterals" priority="3">
+The String literal &quot;First argument:&quot; appears 6 times in this file; the first occurrence is on line 27
+</violation>
+<violation beginline="29" endline="29" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.service" class="InfraSystemFacade" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'user' could be declared final
+</violation>
+<violation beginline="30" endline="32" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.service" class="InfraSystemFacade" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'login' (lines '30'-'32').
+</violation>
+<violation beginline="32" endline="40" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.service" class="InfraSystemFacade" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'login' (lines '32'-'40').
+</violation>
+<violation beginline="37" endline="37" begincolumn="0" endcolumn="0" rule="PreserveStackTrace" ruleset="Design Rules" package="com.nttdata.infra.service" class="InfraSystemFacade" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#PreserveStackTrace" priority="3">
+Caught exception is rethrown, original stack trace may be lost
+</violation>
+<violation beginline="44" endline="44" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.service" class="InfraSystemFacade" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'createSR' could be declared final
+</violation>
+<violation beginline="47" endline="55" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.service" class="InfraSystemFacade" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'result' (lines '47'-'55').
+</violation>
+<violation beginline="52" endline="52" begincolumn="0" endcolumn="0" rule="PreserveStackTrace" ruleset="Design Rules" package="com.nttdata.infra.service" class="InfraSystemFacade" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#PreserveStackTrace" priority="3">
+Caught exception is rethrown, original stack trace may be lost
+</violation>
+<violation beginline="60" endline="60" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.service" class="InfraSystemFacade" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'reqDetails' could be declared final
+</violation>
+<violation beginline="61" endline="64" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.service" class="InfraSystemFacade" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'reqList' (lines '61'-'64').
+</violation>
+<violation beginline="64" endline="79" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.service" class="InfraSystemFacade" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'reqList' (lines '64'-'79').
+</violation>
+<violation beginline="76" endline="76" begincolumn="0" endcolumn="0" rule="PreserveStackTrace" ruleset="Design Rules" package="com.nttdata.infra.service" class="InfraSystemFacade" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#PreserveStackTrace" priority="3">
+Caught exception is rethrown, original stack trace may be lost
+</violation>
+<violation beginline="86" endline="86" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.service" class="InfraSystemFacade" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'reqDetails' could be declared final
+</violation>
+<violation beginline="88" endline="97" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.service" class="InfraSystemFacade" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'reqDet' (lines '88'-'97').
+</violation>
+<violation beginline="93" endline="93" begincolumn="0" endcolumn="0" rule="PreserveStackTrace" ruleset="Design Rules" package="com.nttdata.infra.service" class="InfraSystemFacade" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#PreserveStackTrace" priority="3">
+Caught exception is rethrown, original stack trace may be lost
+</violation>
+<violation beginline="103" endline="106" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.service" class="InfraSystemFacade" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'statusList' (lines '103'-'106').
+</violation>
+<violation beginline="104" endline="104" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.service" class="InfraSystemFacade" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'stsDao' could be declared final
+</violation>
+<violation beginline="106" endline="119" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.service" class="InfraSystemFacade" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'statusList' (lines '106'-'119').
+</violation>
+<violation beginline="115" endline="115" begincolumn="0" endcolumn="0" rule="PreserveStackTrace" ruleset="Design Rules" package="com.nttdata.infra.service" class="InfraSystemFacade" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#PreserveStackTrace" priority="3">
+Caught exception is rethrown, original stack trace may be lost
+</violation>
+<violation beginline="127" endline="135" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.service" class="InfraSystemFacade" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'isUpdated' (lines '127'-'135').
+</violation>
+<violation beginline="138" endline="141" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.service" class="InfraSystemFacade" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'typeList' (lines '138'-'141').
+</violation>
+<violation beginline="141" endline="153" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.service" class="InfraSystemFacade" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'typeList' (lines '141'-'153').
+</violation>
+<violation beginline="156" endline="159" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.service" class="InfraSystemFacade" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'reqList' (lines '156'-'159').
+</violation>
+<violation beginline="159" endline="167" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.service" class="InfraSystemFacade" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'reqList' (lines '159'-'167').
+</violation>
+</file>
+<file name="src/com/nttdata/infra/web/handlers/CreateRequest.java">
+<violation beginline="19" endline="68" begincolumn="0" endcolumn="0" rule="AtLeastOneConstructor" ruleset="Controversial Rules" package="com.nttdata.infra.web.handlers" class="CreateRequest" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#AtLeastOneConstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="22" endline="22" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.web.handlers" class="CreateRequest" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'request' is not assigned and could be declared final
+</violation>
+<violation beginline="22" endline="22" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.web.handlers" class="CreateRequest" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'response' is not assigned and could be declared final
+</violation>
+<violation beginline="26" endline="26" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.web.handlers" class="CreateRequest" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'infra' could be declared final
+</violation>
+<violation beginline="27" endline="27" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.web.handlers" class="CreateRequest" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'session' could be declared final
+</violation>
+<violation beginline="28" endline="53" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.web.handlers" class="CreateRequest" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'requestId' (lines '28'-'53').
+</violation>
+<violation beginline="29" endline="55" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.web.handlers" class="CreateRequest" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'dispatch' (lines '29'-'55').
+</violation>
+<violation beginline="30" endline="30" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.web.handlers" class="CreateRequest" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'userId' could be declared final
+</violation>
+<violation beginline="31" endline="31" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.web.handlers" class="CreateRequest" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'location' could be declared final
+</violation>
+<violation beginline="32" endline="32" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.web.handlers" class="CreateRequest" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'cubeNo' could be declared final
+</violation>
+</file>
+<file name="src/com/nttdata/infra/web/handlers/Login.java">
+<violation beginline="18" endline="59" begincolumn="0" endcolumn="0" rule="AtLeastOneConstructor" ruleset="Controversial Rules" package="com.nttdata.infra.web.handlers" class="Login" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#AtLeastOneConstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="21" endline="21" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.web.handlers" class="Login" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'request' is not assigned and could be declared final
+</violation>
+<violation beginline="21" endline="21" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.web.handlers" class="Login" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'response' is not assigned and could be declared final
+</violation>
+<violation beginline="24" endline="24" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.web.handlers" class="Login" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'userName' could be declared final
+</violation>
+<violation beginline="25" endline="25" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.web.handlers" class="Login" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'password' could be declared final
+</violation>
+<violation beginline="26" endline="26" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.web.handlers" class="Login" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'session' could be declared final
+</violation>
+<violation beginline="28" endline="39" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.web.handlers" class="Login" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'dispatch' (lines '28'-'39').
+</violation>
+<violation beginline="28" endline="47" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.web.handlers" class="Login" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'dispatch' (lines '28'-'47').
+</violation>
+<violation beginline="29" endline="29" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.web.handlers" class="Login" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'infra' could be declared final
+</violation>
+<violation beginline="30" endline="33" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.web.handlers" class="Login" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'login' (lines '30'-'33').
+</violation>
+<violation beginline="44" endline="44" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.web.handlers" class="Login" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'roleId' could be declared final
+</violation>
+</file>
+<file name="src/com/nttdata/infra/web/handlers/Logout.java">
+<violation beginline="14" endline="27" begincolumn="0" endcolumn="0" rule="AtLeastOneConstructor" ruleset="Controversial Rules" package="com.nttdata.infra.web.handlers" class="Logout" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#AtLeastOneConstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="17" endline="17" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.web.handlers" class="Logout" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'request' is not assigned and could be declared final
+</violation>
+<violation beginline="17" endline="17" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.web.handlers" class="Logout" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'response' is not assigned and could be declared final
+</violation>
+<violation beginline="21" endline="21" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.web.handlers" class="Logout" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'session' could be declared final
+</violation>
+</file>
+<file name="src/com/nttdata/infra/web/handlers/ReqType.java">
+<violation beginline="20" endline="48" begincolumn="0" endcolumn="0" rule="AtLeastOneConstructor" ruleset="Controversial Rules" package="com.nttdata.infra.web.handlers" class="ReqType" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#AtLeastOneConstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="23" endline="23" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.web.handlers" class="ReqType" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'request' is not assigned and could be declared final
+</violation>
+<violation beginline="23" endline="23" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.web.handlers" class="ReqType" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'response' is not assigned and could be declared final
+</violation>
+<violation beginline="26" endline="26" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.web.handlers" class="ReqType" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'session' could be declared final
+</violation>
+<violation beginline="27" endline="35" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.web.handlers" class="ReqType" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'dispatch' (lines '27'-'35').
+</violation>
+<violation beginline="28" endline="28" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.web.handlers" class="ReqType" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'infra' could be declared final
+</violation>
+<violation beginline="29" endline="33" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.web.handlers" class="ReqType" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'typeList' (lines '29'-'33').
+</violation>
+</file>
+<file name="src/com/nttdata/infra/web/handlers/RequestList.java">
+<violation beginline="21" endline="88" begincolumn="0" endcolumn="0" rule="AtLeastOneConstructor" ruleset="Controversial Rules" package="com.nttdata.infra.web.handlers" class="RequestList" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#AtLeastOneConstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="24" endline="24" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.web.handlers" class="RequestList" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'request' is not assigned and could be declared final
+</violation>
+<violation beginline="24" endline="24" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.web.handlers" class="RequestList" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'response' is not assigned and could be declared final
+</violation>
+<violation beginline="27" endline="27" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.web.handlers" class="RequestList" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'fac' could be declared final
+</violation>
+<violation beginline="28" endline="28" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.web.handlers" class="RequestList" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'session' could be declared final
+</violation>
+<violation beginline="29" endline="29" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.web.handlers" class="RequestList" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'role' could be declared final
+</violation>
+<violation beginline="30" endline="48" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.web.handlers" class="RequestList" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'dispatch' (lines '30'-'48').
+</violation>
+<violation beginline="32" endline="32" begincolumn="0" endcolumn="0" rule="UnusedLocalVariable" ruleset="Unused Code Rules" package="com.nttdata.infra.web.handlers" class="RequestList" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedLocalVariable" priority="3">
+Avoid unused local variables such as 'types'.
+</violation>
+<violation beginline="32" endline="35" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.web.handlers" class="RequestList" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'types' (lines '32'-'35').
+</violation>
+<violation beginline="35" endline="87" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.web.handlers" class="RequestList" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'types' (lines '35'-'87').
+</violation>
+<violation beginline="52" endline="54" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.web.handlers" class="RequestList" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'reqList' (lines '52'-'54').
+</violation>
+<violation beginline="69" endline="72" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.web.handlers" class="RequestList" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'reqList' (lines '69'-'72').
+</violation>
+<violation beginline="70" endline="70" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.web.handlers" class="RequestList" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'userId' could be declared final
+</violation>
+</file>
+<file name="src/com/nttdata/infra/web/handlers/SaveRequest.java">
+<violation beginline="19" endline="127" begincolumn="0" endcolumn="0" rule="AtLeastOneConstructor" ruleset="Controversial Rules" package="com.nttdata.infra.web.handlers" class="SaveRequest" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#AtLeastOneConstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="19" endline="127" begincolumn="0" endcolumn="0" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="com.nttdata.infra.web.handlers" class="SaveRequest" externalInfoUrl="http://pmd.sourceforge.net/rules/codesize.html#CyclomaticComplexity" priority="3">
+The class 'SaveRequest' has a Cyclomatic Complexity of 18 (Highest = 17).
+</violation>
+<violation beginline="22" endline="126" begincolumn="0" endcolumn="0" rule="ExcessiveMethodLength" ruleset="Code Size Rules" package="com.nttdata.infra.web.handlers" class="SaveRequest" externalInfoUrl="http://pmd.sourceforge.net/rules/codesize.html#ExcessiveMethodLength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="22" endline="22" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.web.handlers" class="SaveRequest" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'request' is not assigned and could be declared final
+</violation>
+<violation beginline="22" endline="22" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.web.handlers" class="SaveRequest" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'response' is not assigned and could be declared final
+</violation>
+<violation beginline="22" endline="126" begincolumn="0" endcolumn="0" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="com.nttdata.infra.web.handlers" class="SaveRequest" externalInfoUrl="http://pmd.sourceforge.net/rules/codesize.html#CyclomaticComplexity" priority="3">
+The method 'handle' has a Cyclomatic Complexity of 17.
+</violation>
+<violation beginline="25" endline="104" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.web.handlers" class="SaveRequest" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'dispatch' (lines '25'-'104').
+</violation>
+<violation beginline="25" endline="114" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.web.handlers" class="SaveRequest" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'dispatch' (lines '25'-'114').
+</violation>
+<violation beginline="25" endline="121" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.web.handlers" class="SaveRequest" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'dispatch' (lines '25'-'121').
+</violation>
+<violation beginline="25" endline="64" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.web.handlers" class="SaveRequest" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'dispatch' (lines '25'-'64').
+</violation>
+<violation beginline="25" endline="74" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.web.handlers" class="SaveRequest" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'dispatch' (lines '25'-'74').
+</violation>
+<violation beginline="25" endline="81" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.web.handlers" class="SaveRequest" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'dispatch' (lines '25'-'81').
+</violation>
+<violation beginline="25" endline="86" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.web.handlers" class="SaveRequest" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'dispatch' (lines '25'-'86').
+</violation>
+<violation beginline="25" endline="126" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.web.handlers" class="SaveRequest" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'dispatch' (lines '25'-'126').
+</violation>
+<violation beginline="26" endline="26" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.web.handlers" class="SaveRequest" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'date' could be declared final
+</violation>
+<violation beginline="27" endline="126" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.web.handlers" class="SaveRequest" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'today' (lines '27'-'126').
+</violation>
+<violation beginline="27" endline="27" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.web.handlers" class="SaveRequest" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'today' could be declared final
+</violation>
+<violation beginline="28" endline="28" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.web.handlers" class="SaveRequest" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'session' could be declared final
+</violation>
+<violation beginline="29" endline="126" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.web.handlers" class="SaveRequest" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'infra' (lines '29'-'126').
+</violation>
+<violation beginline="29" endline="29" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.web.handlers" class="SaveRequest" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'infra' could be declared final
+</violation>
+<violation beginline="30" endline="31" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.web.handlers" class="SaveRequest" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'updateReq' (lines '30'-'31').
+</violation>
+<violation beginline="31" endline="126" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.web.handlers" class="SaveRequest" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'updateReq' (lines '31'-'126').
+</violation>
+<violation beginline="32" endline="126" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.web.handlers" class="SaveRequest" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'rejectReason' (lines '32'-'126').
+</violation>
+<violation beginline="32" endline="32" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.web.handlers" class="SaveRequest" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'rejectReason' could be declared final
+</violation>
+<violation beginline="33" endline="126" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.web.handlers" class="SaveRequest" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'cancelReason' (lines '33'-'126').
+</violation>
+<violation beginline="34" endline="126" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.web.handlers" class="SaveRequest" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'statusID' (lines '34'-'126').
+</violation>
+<violation beginline="39" endline="88" begincolumn="0" endcolumn="0" rule="ConfusingTernary" ruleset="Design Rules" package="com.nttdata.infra.web.handlers" class="SaveRequest" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#ConfusingTernary" priority="3">
+Avoid if (x != y) ..; else ..;
+</violation>
+<violation beginline="40" endline="83" begincolumn="0" endcolumn="0" rule="ConfusingTernary" ruleset="Design Rules" package="com.nttdata.infra.web.handlers" class="SaveRequest" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#ConfusingTernary" priority="3">
+Avoid if (x != y) ..; else ..;
+</violation>
+<violation beginline="92" endline="124" begincolumn="0" endcolumn="0" rule="CollapsibleIfStatements" ruleset="Basic Rules" package="com.nttdata.infra.web.handlers" class="SaveRequest" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#CollapsibleIfStatements" priority="3">
+These nested if statements could be combined
+</violation>
+<violation beginline="93" endline="123" begincolumn="0" endcolumn="0" rule="ConfusingTernary" ruleset="Design Rules" package="com.nttdata.infra.web.handlers" class="SaveRequest" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#ConfusingTernary" priority="3">
+Avoid if (x != y) ..; else ..;
+</violation>
+</file>
+<file name="src/com/nttdata/infra/web/handlers/ViewRequest.java">
+<violation beginline="18" endline="46" begincolumn="0" endcolumn="0" rule="AtLeastOneConstructor" ruleset="Controversial Rules" package="com.nttdata.infra.web.handlers" class="ViewRequest" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#AtLeastOneConstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="21" endline="21" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.web.handlers" class="ViewRequest" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'request' is not assigned and could be declared final
+</violation>
+<violation beginline="21" endline="21" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.web.handlers" class="ViewRequest" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'response' is not assigned and could be declared final
+</violation>
+<violation beginline="24" endline="24" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.web.handlers" class="ViewRequest" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'req' could be declared final
+</violation>
+<violation beginline="26" endline="33" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.web.handlers" class="ViewRequest" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'dispatch' (lines '26'-'33').
+</violation>
+<violation beginline="27" endline="27" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.web.handlers" class="ViewRequest" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'fac' could be declared final
+</violation>
+<violation beginline="28" endline="31" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.infra.web.handlers" class="ViewRequest" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'details' (lines '28'-'31').
+</violation>
+<violation beginline="29" endline="29" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.infra.web.handlers" class="ViewRequest" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'session' could be declared final
+</violation>
+</file>
+<file name="src/com/nttdata/mvc/HttpRequestHandler.java">
+<violation beginline="10" endline="11" begincolumn="0" endcolumn="0" rule="UnusedModifier" ruleset="Controversial Rules" package="com.nttdata.mvc" class="HttpRequestHandler" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#UnusedModifier" priority="3">
+Avoid modifiers which are implied by the context
+</violation>
+</file>
+<file name="src/com/nttdata/mvc/MvcController.java">
+<violation beginline="17" endline="17" begincolumn="0" endcolumn="0" rule="BeanMembersShouldSerialize" ruleset="JavaBean Rules" package="com.nttdata.mvc" class="MvcController" externalInfoUrl="http://pmd.sourceforge.net/rules/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="22" endline="25" begincolumn="0" endcolumn="0" rule="UnnecessaryConstructor" ruleset="Controversial Rules" package="com.nttdata.mvc" class="MvcController" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#UnnecessaryConstructor" priority="3">
+Avoid unnecessary constructors - the compiler will generate these for you
+</violation>
+<violation beginline="31" endline="31" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.mvc" class="MvcController" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'request' is not assigned and could be declared final
+</violation>
+<violation beginline="32" endline="32" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.mvc" class="MvcController" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'response' is not assigned and could be declared final
+</violation>
+<violation beginline="41" endline="41" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.mvc" class="MvcController" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'request' is not assigned and could be declared final
+</violation>
+<violation beginline="42" endline="42" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.mvc" class="MvcController" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'response' is not assigned and could be declared final
+</violation>
+<violation beginline="44" endline="44" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.mvc" class="MvcController" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'url' could be declared final
+</violation>
+<violation beginline="46" endline="46" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.mvc" class="MvcController" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'key' could be declared final
+</violation>
+<violation beginline="47" endline="47" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.mvc" class="MvcController" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'handler' could be declared final
+</violation>
+<violation beginline="48" endline="52" begincolumn="0" endcolumn="0" rule="ConfusingTernary" ruleset="Design Rules" package="com.nttdata.mvc" class="MvcController" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#ConfusingTernary" priority="3">
+Avoid if (x != y) ..; else ..;
+</violation>
+<violation beginline="56" endline="56" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.mvc" class="MvcController" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'config' is not assigned and could be declared final
+</violation>
+<violation beginline="59" endline="60" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.mvc" class="MvcController" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'mvcProps' could be declared final
+</violation>
+<violation beginline="66" endline="66" begincolumn="0" endcolumn="0" rule="PreserveStackTrace" ruleset="Design Rules" package="com.nttdata.mvc" class="MvcController" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#PreserveStackTrace" priority="3">
+Caught exception is rethrown, original stack trace may be lost
+</violation>
+</file>
+<file name="src/com/nttdata/mvc/MvcUtil.java">
+<violation beginline="16" endline="16" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.mvc" class="MvcUtil" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'clazz' is not assigned and could be declared final
+</violation>
+<violation beginline="16" endline="16" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.mvc" class="MvcUtil" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'interfaceName' is not assigned and could be declared final
+</violation>
+<violation beginline="17" endline="17" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.mvc" class="MvcUtil" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'interfaces' could be declared final
+</violation>
+<violation beginline="18" endline="21" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.mvc" class="MvcUtil" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'found' (lines '18'-'21').
+</violation>
+<violation beginline="21" endline="21" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.mvc" class="MvcUtil" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'found' (lines '21'-'21').
+</violation>
+<violation beginline="27" endline="27" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.mvc" class="MvcUtil" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'propsFile' is not assigned and could be declared final
+</violation>
+<violation beginline="28" endline="80" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.mvc" class="MvcUtil" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'handlers' (lines '28'-'80').
+</violation>
+<violation beginline="28" endline="28" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.mvc" class="MvcUtil" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'handlers' could be declared final
+</violation>
+<violation beginline="29" endline="29" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.mvc" class="MvcUtil" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'prop' could be declared final
+</violation>
+<violation beginline="30" endline="32" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.nttdata.mvc" class="MvcUtil" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'proStr' (lines '30'-'32').
+</violation>
+<violation beginline="34" endline="34" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.mvc" class="MvcUtil" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'enKeys' could be declared final
+</violation>
+<violation beginline="36" endline="36" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.nttdata.mvc" class="MvcUtil" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'key' could be declared final
+</violation>
+<violation beginline="52" endline="52" begincolumn="0" endcolumn="0" rule="PreserveStackTrace" ruleset="Design Rules" package="com.nttdata.mvc" class="MvcUtil" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#PreserveStackTrace" priority="3">
+Caught exception is rethrown, original stack trace may be lost
+</violation>
+<violation beginline="56" endline="56" begincolumn="0" endcolumn="0" rule="PreserveStackTrace" ruleset="Design Rules" package="com.nttdata.mvc" class="MvcUtil" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#PreserveStackTrace" priority="3">
+Caught exception is rethrown, original stack trace may be lost
+</violation>
+<violation beginline="60" endline="60" begincolumn="0" endcolumn="0" rule="PreserveStackTrace" ruleset="Design Rules" package="com.nttdata.mvc" class="MvcUtil" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#PreserveStackTrace" priority="3">
+Caught exception is rethrown, original stack trace may be lost
+</violation>
+<violation beginline="64" endline="64" begincolumn="0" endcolumn="0" rule="PreserveStackTrace" ruleset="Design Rules" package="com.nttdata.mvc" class="MvcUtil" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#PreserveStackTrace" priority="3">
+Caught exception is rethrown, original stack trace may be lost
+</violation>
+<violation beginline="68" endline="68" begincolumn="0" endcolumn="0" rule="PreserveStackTrace" ruleset="Design Rules" package="com.nttdata.mvc" class="MvcUtil" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#PreserveStackTrace" priority="3">
+Caught exception is rethrown, original stack trace may be lost
+</violation>
+</file>
+</pmd>

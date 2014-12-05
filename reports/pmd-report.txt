@@ -1,0 +1,518 @@
+
+src/com/nttdata/dbcon/ConnectionHolder.java:16	Avoid variables with short names like ds
+src/com/nttdata/dbcon/ConnectionHolder.java:16	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/nttdata/dbcon/ConnectionHolder.java:36	Local variable 'envContext' could be declared final
+src/com/nttdata/dbcon/ConnectionHolder.java:41	Caught exception is rethrown, original stack trace may be lost
+src/com/nttdata/dbcon/ConnectionHolder.java:52	Caught exception is rethrown, original stack trace may be lost
+src/com/nttdata/dbcon/ConnectionHolder.java:58	Local variable 'bds' could be declared final
+src/com/nttdata/dbcon/ConnectionHolder.java:64	Caught exception is rethrown, original stack trace may be lost
+src/com/nttdata/dbcon/DBConnectionException.java:5	It is a good practice to call super() in a constructor
+src/com/nttdata/dbfw/DBHelper.java:19	Parameter 'con' is not assigned and could be declared final
+src/com/nttdata/dbfw/DBHelper.java:20	Parameter 'outMap' is not assigned and could be declared final
+src/com/nttdata/dbfw/DBHelper.java:21	Found 'DD'-anomaly for variable 'prepStmt' (lines '21'-'25').
+src/com/nttdata/dbfw/DBHelper.java:22	Found 'DD'-anomaly for variable 'resSet' (lines '22'-'26').
+src/com/nttdata/dbfw/DBHelper.java:23	Found 'DU'-anomaly for variable 'resultList' (lines '23'-'53').
+src/com/nttdata/dbfw/DBHelper.java:23	Local variable 'resultList' could be declared final
+src/com/nttdata/dbfw/DBHelper.java:28	Local variable 'obj' could be declared final
+src/com/nttdata/dbfw/DBHelper.java:34	Caught exception is rethrown, original stack trace may be lost
+src/com/nttdata/dbfw/DBHelper.java:49	Caught exception is rethrown, original stack trace may be lost
+src/com/nttdata/dbfw/DBHelper.java:55	Parameter 'con' is not assigned and could be declared final
+src/com/nttdata/dbfw/DBHelper.java:55	Parameter 'sqlStmt' is not assigned and could be declared final
+src/com/nttdata/dbfw/DBHelper.java:56	Parameter 'inMap' is not assigned and could be declared final
+src/com/nttdata/dbfw/DBHelper.java:57	Found 'DD'-anomaly for variable 'prepStmt' (lines '57'-'62').
+src/com/nttdata/dbfw/DBHelper.java:58	Found 'DD'-anomaly for variable 'resSet' (lines '58'-'64').
+src/com/nttdata/dbfw/DBHelper.java:59	Found 'DU'-anomaly for variable 'resultList' (lines '59'-'92').
+src/com/nttdata/dbfw/DBHelper.java:59	Local variable 'resultList' could be declared final
+src/com/nttdata/dbfw/DBHelper.java:66	Local variable 'obj' could be declared final
+src/com/nttdata/dbfw/DBHelper.java:72	Caught exception is rethrown, original stack trace may be lost
+src/com/nttdata/dbfw/DBHelper.java:87	Caught exception is rethrown, original stack trace may be lost
+src/com/nttdata/dbfw/DBHelper.java:96	Found 'DD'-anomaly for variable 'preStmt' (lines '96'-'99').
+src/com/nttdata/dbfw/DBHelper.java:97	Found 'DD'-anomaly for variable 'result' (lines '97'-'101').
+src/com/nttdata/dbfw/DBHelper.java:101	Found 'DU'-anomaly for variable 'result' (lines '101'-'122').
+src/com/nttdata/dbfw/DBHelper.java:105	Caught exception is rethrown, original stack trace may be lost
+src/com/nttdata/dbfw/OutParamMapper.java:7	Avoid modifiers which are implied by the context
+src/com/nttdata/dbfw/OutTypeMapper.java:7	Avoid modifiers which are implied by the context
+src/com/nttdata/dbfw/ParamMapper.java:7	Avoid modifiers which are implied by the context
+src/com/nttdata/dbfw/ResultMapper.java:7	Avoid modifiers which are implied by the context
+src/com/nttdata/infra/dao/ConnectionFactory.java:1	All methods are static.  Consider using Singleton instead.  Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/com/nttdata/infra/dao/ConnectionFactory.java:7	Each class should declare at least one constructor
+src/com/nttdata/infra/dao/ConnectionFactory.java:10	Ensure that resources like this Connection object are closed after use
+src/com/nttdata/infra/dao/ConnectionFactory.java:10	Found 'DD'-anomaly for variable 'con' (lines '10'-'16').
+src/com/nttdata/infra/dao/ConnectionFactory.java:13	Local variable 'userName' could be declared final
+src/com/nttdata/infra/dao/ConnectionFactory.java:14	Local variable 'password' could be declared final
+src/com/nttdata/infra/dao/ConnectionFactory.java:15	Local variable 'url' could be declared final
+src/com/nttdata/infra/dao/ConnectionFactory.java:20	Avoid printStackTrace(); use a logger call instead.
+src/com/nttdata/infra/dao/ConnectionFactory.java:24	Avoid printStackTrace(); use a logger call instead.
+src/com/nttdata/infra/dao/RequestDAO.java:19	Each class should declare at least one constructor
+src/com/nttdata/infra/dao/RequestDAO.java:19	The class 'RequestDAO' has a Cyclomatic Complexity of 6 (Highest = 12).
+src/com/nttdata/infra/dao/RequestDAO.java:24	The String literal "Argument " appears 4 times in this file; the first occurrence is on line 24
+src/com/nttdata/infra/dao/RequestDAO.java:25	Ensure that resources like this Connection object are closed after use
+src/com/nttdata/infra/dao/RequestDAO.java:25	Found 'DD'-anomaly for variable 'con' (lines '25'-'55').
+src/com/nttdata/infra/dao/RequestDAO.java:25	Found 'DD'-anomaly for variable 'con' (lines '25'-'55').
+src/com/nttdata/infra/dao/RequestDAO.java:26	Found 'DD'-anomaly for variable 'result' (lines '26'-'57').
+src/com/nttdata/infra/dao/RequestDAO.java:26	Found 'DD'-anomaly for variable 'result' (lines '26'-'57').
+src/com/nttdata/infra/dao/RequestDAO.java:27	Found 'DD'-anomaly for variable 'reID' (lines '27'-'70').
+src/com/nttdata/infra/dao/RequestDAO.java:27	Found 'DD'-anomaly for variable 'reID' (lines '27'-'70').
+src/com/nttdata/infra/dao/RequestDAO.java:27	Found 'DU'-anomaly for variable 'reID' (lines '27'-'86').
+src/com/nttdata/infra/dao/RequestDAO.java:27	Found 'DU'-anomaly for variable 'reID' (lines '27'-'86').
+src/com/nttdata/infra/dao/RequestDAO.java:30	Local variable 'inMap' could be declared final
+src/com/nttdata/infra/dao/RequestDAO.java:52	Found 'DD'-anomaly for variable 'conHolder' (lines '52'-'54').
+src/com/nttdata/infra/dao/RequestDAO.java:52	Found 'DD'-anomaly for variable 'conHolder' (lines '52'-'54').
+src/com/nttdata/infra/dao/RequestDAO.java:62	Found 'DD'-anomaly for variable 'reList' (lines '62'-'63').
+src/com/nttdata/infra/dao/RequestDAO.java:62	Found 'DD'-anomaly for variable 'reList' (lines '62'-'63').
+src/com/nttdata/infra/dao/RequestDAO.java:65	Local variable 'itr' could be declared final
+src/com/nttdata/infra/dao/RequestDAO.java:66	Found 'DD'-anomaly for variable 'req' (lines '66'-'68').
+src/com/nttdata/infra/dao/RequestDAO.java:66	Found 'DD'-anomaly for variable 'req' (lines '66'-'68').
+src/com/nttdata/infra/dao/RequestDAO.java:66	Found 'DU'-anomaly for variable 'req' (lines '66'-'86').
+src/com/nttdata/infra/dao/RequestDAO.java:66	Found 'DU'-anomaly for variable 'req' (lines '66'-'86').
+src/com/nttdata/infra/dao/RequestDAO.java:68	Avoid instantiating new objects inside loops
+src/com/nttdata/infra/dao/RequestDAO.java:68	Found 'DD'-anomaly for variable 'req' (lines '68'-'69').
+src/com/nttdata/infra/dao/RequestDAO.java:68	Found 'DD'-anomaly for variable 'req' (lines '68'-'69').
+src/com/nttdata/infra/dao/RequestDAO.java:70	Found 'DD'-anomaly for variable 'reID' (lines '70'-'70').
+src/com/nttdata/infra/dao/RequestDAO.java:70	Found 'DD'-anomaly for variable 'reID' (lines '70'-'70').
+src/com/nttdata/infra/dao/RequestDAO.java:70	Found 'DU'-anomaly for variable 'reID' (lines '70'-'86').
+src/com/nttdata/infra/dao/RequestDAO.java:70	Found 'DU'-anomaly for variable 'reID' (lines '70'-'86').
+src/com/nttdata/infra/dao/RequestDAO.java:76	Caught exception is rethrown, original stack trace may be lost
+src/com/nttdata/infra/dao/RequestDAO.java:80	Caught exception is rethrown, original stack trace may be lost
+src/com/nttdata/infra/dao/RequestDAO.java:92	Ensure that resources like this Connection object are closed after use
+src/com/nttdata/infra/dao/RequestDAO.java:92	Found 'DD'-anomaly for variable 'con' (lines '92'-'104').
+src/com/nttdata/infra/dao/RequestDAO.java:92	Found 'DD'-anomaly for variable 'con' (lines '92'-'104').
+src/com/nttdata/infra/dao/RequestDAO.java:93	Found 'DD'-anomaly for variable 'reqDetailsList' (lines '93'-'106').
+src/com/nttdata/infra/dao/RequestDAO.java:93	Found 'DD'-anomaly for variable 'reqDetailsList' (lines '93'-'106').
+src/com/nttdata/infra/dao/RequestDAO.java:94	Local variable 'inMap' could be declared final
+src/com/nttdata/infra/dao/RequestDAO.java:103	Local variable 'conHolder' could be declared final
+src/com/nttdata/infra/dao/RequestDAO.java:106	Found 'DU'-anomaly for variable 'reqDetailsList' (lines '106'-'120').
+src/com/nttdata/infra/dao/RequestDAO.java:106	Found 'DU'-anomaly for variable 'reqDetailsList' (lines '106'-'120').
+src/com/nttdata/infra/dao/RequestDAO.java:112	Caught exception is rethrown, original stack trace may be lost
+src/com/nttdata/infra/dao/RequestDAO.java:116	Caught exception is rethrown, original stack trace may be lost
+src/com/nttdata/infra/dao/RequestDAO.java:125	Ensure that resources like this Connection object are closed after use
+src/com/nttdata/infra/dao/RequestDAO.java:125	Found 'DD'-anomaly for variable 'con' (lines '125'-'131').
+src/com/nttdata/infra/dao/RequestDAO.java:126	Found 'DD'-anomaly for variable 'requestList' (lines '126'-'133').
+src/com/nttdata/infra/dao/RequestDAO.java:133	Found 'DU'-anomaly for variable 'requestList' (lines '133'-'149').
+src/com/nttdata/infra/dao/RequestDAO.java:139	Caught exception is rethrown, original stack trace may be lost
+src/com/nttdata/infra/dao/RequestDAO.java:155	Ensure that resources like this Connection object are closed after use
+src/com/nttdata/infra/dao/RequestDAO.java:155	Found 'DD'-anomaly for variable 'con' (lines '155'-'169').
+src/com/nttdata/infra/dao/RequestDAO.java:155	Found 'DD'-anomaly for variable 'con' (lines '155'-'169').
+src/com/nttdata/infra/dao/RequestDAO.java:157	Found 'DD'-anomaly for variable 'reqDetails' (lines '157'-'176').
+src/com/nttdata/infra/dao/RequestDAO.java:157	Found 'DD'-anomaly for variable 'reqDetails' (lines '157'-'176').
+src/com/nttdata/infra/dao/RequestDAO.java:157	Found 'DU'-anomaly for variable 'reqDetails' (lines '157'-'190').
+src/com/nttdata/infra/dao/RequestDAO.java:157	Found 'DU'-anomaly for variable 'reqDetails' (lines '157'-'190').
+src/com/nttdata/infra/dao/RequestDAO.java:159	Local variable 'inMap' could be declared final
+src/com/nttdata/infra/dao/RequestDAO.java:176	Found 'DD'-anomaly for variable 'reqDetails' (lines '176'-'176').
+src/com/nttdata/infra/dao/RequestDAO.java:176	Found 'DD'-anomaly for variable 'reqDetails' (lines '176'-'176').
+src/com/nttdata/infra/dao/RequestDAO.java:176	Found 'DU'-anomaly for variable 'reqDetails' (lines '176'-'190').
+src/com/nttdata/infra/dao/RequestDAO.java:176	Found 'DU'-anomaly for variable 'reqDetails' (lines '176'-'190').
+src/com/nttdata/infra/dao/RequestDAO.java:192	The method 'saveSRDetails' has a Cyclomatic Complexity of 12.
+src/com/nttdata/infra/dao/RequestDAO.java:197	Ensure that resources like this Connection object are closed after use
+src/com/nttdata/infra/dao/RequestDAO.java:197	Found 'DD'-anomaly for variable 'con' (lines '197'-'255').
+src/com/nttdata/infra/dao/RequestDAO.java:197	Found 'DD'-anomaly for variable 'con' (lines '197'-'255').
+src/com/nttdata/infra/dao/RequestDAO.java:197	Found 'DD'-anomaly for variable 'con' (lines '197'-'255').
+src/com/nttdata/infra/dao/RequestDAO.java:197	Found 'DD'-anomaly for variable 'con' (lines '197'-'255').
+src/com/nttdata/infra/dao/RequestDAO.java:197	Found 'DD'-anomaly for variable 'con' (lines '197'-'255').
+src/com/nttdata/infra/dao/RequestDAO.java:200	Found 'DD'-anomaly for variable 'result' (lines '200'-'259').
+src/com/nttdata/infra/dao/RequestDAO.java:200	Found 'DD'-anomaly for variable 'result' (lines '200'-'259').
+src/com/nttdata/infra/dao/RequestDAO.java:200	Found 'DD'-anomaly for variable 'result' (lines '200'-'259').
+src/com/nttdata/infra/dao/RequestDAO.java:200	Found 'DD'-anomaly for variable 'result' (lines '200'-'259').
+src/com/nttdata/infra/dao/RequestDAO.java:200	Found 'DD'-anomaly for variable 'result' (lines '200'-'259').
+src/com/nttdata/infra/dao/RequestDAO.java:200	Found 'DD'-anomaly for variable 'result' (lines '200'-'263').
+src/com/nttdata/infra/dao/RequestDAO.java:200	Found 'DD'-anomaly for variable 'result' (lines '200'-'263').
+src/com/nttdata/infra/dao/RequestDAO.java:200	Found 'DD'-anomaly for variable 'result' (lines '200'-'263').
+src/com/nttdata/infra/dao/RequestDAO.java:200	Found 'DD'-anomaly for variable 'result' (lines '200'-'263').
+src/com/nttdata/infra/dao/RequestDAO.java:200	Found 'DD'-anomaly for variable 'result' (lines '200'-'267').
+src/com/nttdata/infra/dao/RequestDAO.java:200	Found 'DD'-anomaly for variable 'result' (lines '200'-'267').
+src/com/nttdata/infra/dao/RequestDAO.java:200	Found 'DD'-anomaly for variable 'result' (lines '200'-'267').
+src/com/nttdata/infra/dao/RequestDAO.java:200	Found 'DD'-anomaly for variable 'result' (lines '200'-'267').
+src/com/nttdata/infra/dao/RequestDAO.java:200	Found 'DD'-anomaly for variable 'result' (lines '200'-'271').
+src/com/nttdata/infra/dao/RequestDAO.java:200	Found 'DD'-anomaly for variable 'result' (lines '200'-'271').
+src/com/nttdata/infra/dao/RequestDAO.java:200	Found 'DD'-anomaly for variable 'result' (lines '200'-'271').
+src/com/nttdata/infra/dao/RequestDAO.java:200	Found 'DD'-anomaly for variable 'result' (lines '200'-'271').
+src/com/nttdata/infra/dao/RequestDAO.java:201	Found 'DD'-anomaly for variable 'isInserted' (lines '201'-'275').
+src/com/nttdata/infra/dao/RequestDAO.java:201	Found 'DD'-anomaly for variable 'isInserted' (lines '201'-'275').
+src/com/nttdata/infra/dao/RequestDAO.java:201	Found 'DD'-anomaly for variable 'isInserted' (lines '201'-'275').
+src/com/nttdata/infra/dao/RequestDAO.java:201	Found 'DD'-anomaly for variable 'isInserted' (lines '201'-'275').
+src/com/nttdata/infra/dao/RequestDAO.java:201	Found 'DD'-anomaly for variable 'isInserted' (lines '201'-'275').
+src/com/nttdata/infra/dao/RequestDAO.java:201	Found 'DU'-anomaly for variable 'isInserted' (lines '201'-'291').
+src/com/nttdata/infra/dao/RequestDAO.java:201	Found 'DU'-anomaly for variable 'isInserted' (lines '201'-'291').
+src/com/nttdata/infra/dao/RequestDAO.java:201	Found 'DU'-anomaly for variable 'isInserted' (lines '201'-'291').
+src/com/nttdata/infra/dao/RequestDAO.java:201	Found 'DU'-anomaly for variable 'isInserted' (lines '201'-'291').
+src/com/nttdata/infra/dao/RequestDAO.java:202	Found 'DU'-anomaly for variable 'inMapCancel' (lines '202'-'291').
+src/com/nttdata/infra/dao/RequestDAO.java:202	Found 'DU'-anomaly for variable 'inMapCancel' (lines '202'-'291').
+src/com/nttdata/infra/dao/RequestDAO.java:202	Found 'DU'-anomaly for variable 'inMapCancel' (lines '202'-'291').
+src/com/nttdata/infra/dao/RequestDAO.java:202	Found 'DU'-anomaly for variable 'inMapCancel' (lines '202'-'291').
+src/com/nttdata/infra/dao/RequestDAO.java:216	Found 'DU'-anomaly for variable 'inMapReject' (lines '216'-'291').
+src/com/nttdata/infra/dao/RequestDAO.java:216	Found 'DU'-anomaly for variable 'inMapReject' (lines '216'-'291').
+src/com/nttdata/infra/dao/RequestDAO.java:216	Found 'DU'-anomaly for variable 'inMapReject' (lines '216'-'291').
+src/com/nttdata/infra/dao/RequestDAO.java:216	Found 'DU'-anomaly for variable 'inMapReject' (lines '216'-'291').
+src/com/nttdata/infra/dao/RequestDAO.java:216	Found 'DU'-anomaly for variable 'inMapReject' (lines '216'-'291').
+src/com/nttdata/infra/dao/RequestDAO.java:230	Found 'DU'-anomaly for variable 'inMapAssign' (lines '230'-'291').
+src/com/nttdata/infra/dao/RequestDAO.java:230	Found 'DU'-anomaly for variable 'inMapAssign' (lines '230'-'291').
+src/com/nttdata/infra/dao/RequestDAO.java:230	Found 'DU'-anomaly for variable 'inMapAssign' (lines '230'-'291').
+src/com/nttdata/infra/dao/RequestDAO.java:230	Found 'DU'-anomaly for variable 'inMapAssign' (lines '230'-'291').
+src/com/nttdata/infra/dao/RequestDAO.java:230	Found 'DU'-anomaly for variable 'inMapAssign' (lines '230'-'291').
+src/com/nttdata/infra/dao/RequestDAO.java:242	Found 'DU'-anomaly for variable 'inMapComplete' (lines '242'-'291').
+src/com/nttdata/infra/dao/RequestDAO.java:242	Found 'DU'-anomaly for variable 'inMapComplete' (lines '242'-'291').
+src/com/nttdata/infra/dao/RequestDAO.java:242	Found 'DU'-anomaly for variable 'inMapComplete' (lines '242'-'291').
+src/com/nttdata/infra/dao/RequestDAO.java:242	Found 'DU'-anomaly for variable 'inMapComplete' (lines '242'-'291').
+src/com/nttdata/infra/dao/RequestDAO.java:242	Found 'DU'-anomaly for variable 'inMapComplete' (lines '242'-'291').
+src/com/nttdata/infra/dao/RequestDAO.java:255	Found 'DU'-anomaly for variable 'con' (lines '255'-'291').
+src/com/nttdata/infra/dao/RequestDAO.java:255	Found 'DU'-anomaly for variable 'con' (lines '255'-'291').
+src/com/nttdata/infra/dao/RequestDAO.java:255	Found 'DU'-anomaly for variable 'con' (lines '255'-'291').
+src/com/nttdata/infra/dao/RequestDAO.java:255	Found 'DU'-anomaly for variable 'con' (lines '255'-'291').
+src/com/nttdata/infra/dao/RequestDAO.java:275	Found 'DU'-anomaly for variable 'isInserted' (lines '275'-'291').
+src/com/nttdata/infra/dao/RequestDAO.java:275	Found 'DU'-anomaly for variable 'isInserted' (lines '275'-'291').
+src/com/nttdata/infra/dao/RequestDAO.java:275	Found 'DU'-anomaly for variable 'isInserted' (lines '275'-'291').
+src/com/nttdata/infra/dao/RequestDAO.java:275	Found 'DU'-anomaly for variable 'isInserted' (lines '275'-'291').
+src/com/nttdata/infra/dao/RequestDAO.java:275	Found 'DU'-anomaly for variable 'isInserted' (lines '275'-'291').
+src/com/nttdata/infra/dao/RequestDAOTest.java:14	Each class should declare at least one constructor
+src/com/nttdata/infra/dao/RequestDAOTest.java:15	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/nttdata/infra/dao/RequestDAOTest.java:15	Use explicit scoping instead of the default package private level
+src/com/nttdata/infra/dao/RequestDAOTest.java:16	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/nttdata/infra/dao/RequestDAOTest.java:16	Use explicit scoping instead of the default package private level
+src/com/nttdata/infra/dao/RequestDAOTest.java:21	Local variable 'newReq' could be declared final
+src/com/nttdata/infra/dao/RequestDAOTest.java:22	Local variable 'test' could be declared final
+src/com/nttdata/infra/dao/RequestDAOTest.java:23	Avoid variables with short names like id
+src/com/nttdata/infra/dao/RequestDAOTest.java:23	Found 'DD'-anomaly for variable 'id' (lines '23'-'40').
+src/com/nttdata/infra/dao/RequestDAOTest.java:41	System.out.print is used
+src/com/nttdata/infra/dao/RequestDAOTest.java:42	JUnit assertions should include a message
+src/com/nttdata/infra/dao/RequestDAOTest.java:45	Avoid printStackTrace(); use a logger call instead.
+src/com/nttdata/infra/dao/RequestDAOTest.java:52	Local variable 'test' could be declared final
+src/com/nttdata/infra/dao/RequestDAOTest.java:53	Local variable 'req1' could be declared final
+src/com/nttdata/infra/dao/RequestDAOTest.java:54	Local variable 'req2' could be declared final
+src/com/nttdata/infra/dao/RequestDAOTest.java:55	Found 'DD'-anomaly for variable 'dataList' (lines '55'-'67').
+src/com/nttdata/infra/dao/RequestDAOTest.java:71	JUnit assertions should include a message
+src/com/nttdata/infra/dao/RequestDAOTest.java:75	Avoid printStackTrace(); use a logger call instead.
+src/com/nttdata/infra/dao/RequestDAOTest.java:86	Found 'DD'-anomaly for variable 'dataList' (lines '86'-'98').
+src/com/nttdata/infra/dao/RequestDAOTest.java:102	JUnit assertions should include a message
+src/com/nttdata/infra/dao/RequestDAOTest.java:106	Avoid printStackTrace(); use a logger call instead.
+src/com/nttdata/infra/dao/RequestDAOTest.java:114	Found 'DD'-anomaly for variable 'allList' (lines '114'-'129').
+src/com/nttdata/infra/dao/RequestDAOTest.java:125	Found 'DD'-anomaly for variable 'getReq' (lines '125'-'132').
+src/com/nttdata/infra/dao/RequestDAOTest.java:125	Found 'DU'-anomaly for variable 'getReq' (lines '125'-'143').
+src/com/nttdata/infra/dao/RequestDAOTest.java:126	Found 'DD'-anomaly for variable 'request' (lines '126'-'134').
+src/com/nttdata/infra/dao/RequestDAOTest.java:134	Found 'DD'-anomaly for variable 'request' (lines '134'-'134').
+src/com/nttdata/infra/dao/RequestDAOTest.java:137	JUnit assertions should include a message
+src/com/nttdata/infra/dao/RequestDAOTest.java:141	Avoid printStackTrace(); use a logger call instead.
+src/com/nttdata/infra/dao/RequestDAOTest.java:148	Found 'DD'-anomaly for variable 'allList' (lines '148'-'163').
+src/com/nttdata/infra/dao/RequestDAOTest.java:159	Found 'DD'-anomaly for variable 'actreq' (lines '159'-'166').
+src/com/nttdata/infra/dao/RequestDAOTest.java:159	Found 'DU'-anomaly for variable 'actreq' (lines '159'-'177').
+src/com/nttdata/infra/dao/RequestDAOTest.java:160	Found 'DD'-anomaly for variable 'request' (lines '160'-'168').
+src/com/nttdata/infra/dao/RequestDAOTest.java:168	Found 'DD'-anomaly for variable 'request' (lines '168'-'168').
+src/com/nttdata/infra/dao/RequestDAOTest.java:171	JUnit assertions should include a message
+src/com/nttdata/infra/dao/RequestDAOTest.java:175	Avoid printStackTrace(); use a logger call instead.
+src/com/nttdata/infra/dao/RequestDAOTest.java:182	Found 'DD'-anomaly for variable 'isUpdated' (lines '182'-'203').
+src/com/nttdata/infra/dao/RequestDAOTest.java:185	Avoid unused local variables such as 'id'.
+src/com/nttdata/infra/dao/RequestDAOTest.java:185	Avoid variables with short names like id
+src/com/nttdata/infra/dao/RequestDAOTest.java:185	Found 'DU'-anomaly for variable 'id' (lines '185'-'210').
+src/com/nttdata/infra/dao/RequestDAOTest.java:215	Found 'DD'-anomaly for variable 'isUpdated' (lines '215'-'236').
+src/com/nttdata/infra/dao/RequestDAOTest.java:218	Avoid unused local variables such as 'id'.
+src/com/nttdata/infra/dao/RequestDAOTest.java:218	Avoid variables with short names like id
+src/com/nttdata/infra/dao/RequestDAOTest.java:218	Found 'DU'-anomaly for variable 'id' (lines '218'-'243').
+src/com/nttdata/infra/dao/RequestDAOTest.java:249	Found 'DD'-anomaly for variable 'req' (lines '249'-'268').
+src/com/nttdata/infra/dao/RequestDAOTest.java:280	Found 'DD'-anomaly for variable 'req' (lines '280'-'298').
+src/com/nttdata/infra/dao/RequestDAOTest.java:310	Found 'DD'-anomaly for variable 'req' (lines '310'-'328').
+src/com/nttdata/infra/dao/RequestTypeDAO.java:15	Each class should declare at least one constructor
+src/com/nttdata/infra/dao/RequestTypeDAO.java:21	Ensure that resources like this Connection object are closed after use
+src/com/nttdata/infra/dao/RequestTypeDAO.java:21	Found 'DD'-anomaly for variable 'con' (lines '21'-'27').
+src/com/nttdata/infra/dao/RequestTypeDAO.java:22	Found 'DD'-anomaly for variable 'reqTypeList' (lines '22'-'29').
+src/com/nttdata/infra/dao/RequestTypeDAO.java:29	Found 'DU'-anomaly for variable 'reqTypeList' (lines '29'-'43').
+src/com/nttdata/infra/dao/RequestTypeDAO.java:34	Caught exception is rethrown, original stack trace may be lost
+src/com/nttdata/infra/dao/RequestTypeDAO.java:38	Caught exception is rethrown, original stack trace may be lost
+src/com/nttdata/infra/dao/RequestTypeDAOTest.java:13	Each class should declare at least one constructor
+src/com/nttdata/infra/dao/RequestTypeDAOTest.java:17	Found 'DD'-anomaly for variable 'typeList' (lines '17'-'38').
+src/com/nttdata/infra/dao/RequestTypeDAOTest.java:18	Local variable 'correctList' could be declared final
+src/com/nttdata/infra/dao/RequestTypeDAOTest.java:19	Local variable 'type1' could be declared final
+src/com/nttdata/infra/dao/RequestTypeDAOTest.java:20	Local variable 'type2' could be declared final
+src/com/nttdata/infra/dao/RequestTypeDAOTest.java:21	Local variable 'type3' could be declared final
+src/com/nttdata/infra/dao/RequestTypeDAOTest.java:36	Local variable 'test' could be declared final
+src/com/nttdata/infra/dao/RequestTypeDAOTest.java:44	JUnit assertions should include a message
+src/com/nttdata/infra/dao/RequestTypeDAOTest.java:49	Avoid printStackTrace(); use a logger call instead.
+src/com/nttdata/infra/dao/RequestTypeDAOTest.java:55	Found 'DD'-anomaly for variable 'typeList' (lines '55'-'76').
+src/com/nttdata/infra/dao/RequestTypeDAOTest.java:82	JUnit assertions should include a message
+src/com/nttdata/infra/dao/RequestTypeDAOTest.java:87	Avoid printStackTrace(); use a logger call instead.
+src/com/nttdata/infra/dao/SQLMapper.java:17	Each class should declare at least one constructor
+src/com/nttdata/infra/dao/SQLMapper.java:20	Avoid excessively long variable names like REQUEST_BY_CREATOR
+src/com/nttdata/infra/dao/SQLMapper.java:26	Avoid excessively long variable names like GET_REQUEST_DETIALS
+src/com/nttdata/infra/dao/SQLMapper.java:30	Avoid excessively long variable names like GET_STATUS_DETAILS
+src/com/nttdata/infra/dao/SQLMapper.java:38	Avoid excessively long variable names like UPDATE_ON_COMPLETE
+src/com/nttdata/infra/dao/SQLMapper.java:46	Parameter 'resSet' is not assigned and could be declared final
+src/com/nttdata/infra/dao/SQLMapper.java:47	Local variable 'userDetails' could be declared final
+src/com/nttdata/infra/dao/SQLMapper.java:56	Avoid excessively long variable names like SR_DETAILS_RES_MAPPER
+src/com/nttdata/infra/dao/SQLMapper.java:58	Parameter 'resSet' is not assigned and could be declared final
+src/com/nttdata/infra/dao/SQLMapper.java:59	Local variable 'srDetails' could be declared final
+src/com/nttdata/infra/dao/SQLMapper.java:82	Parameter 'resSet' is not assigned and could be declared final
+src/com/nttdata/infra/dao/SQLMapper.java:83	Local variable 'stDetails' could be declared final
+src/com/nttdata/infra/dao/SQLMapper.java:84	Local variable 'role' could be declared final
+src/com/nttdata/infra/dao/SQLMapper.java:95	Parameter 'resSet' is not assigned and could be declared final
+src/com/nttdata/infra/dao/SQLMapper.java:96	Local variable 'stDetails' could be declared final
+src/com/nttdata/infra/dao/SQLMapper.java:104	Parameter 'resSet' is not assigned and could be declared final
+src/com/nttdata/infra/dao/StatusDAO.java:21	Each class should declare at least one constructor
+src/com/nttdata/infra/dao/StatusDAO.java:29	Ensure that resources like this Connection object are closed after use
+src/com/nttdata/infra/dao/StatusDAO.java:29	Found 'DD'-anomaly for variable 'con' (lines '29'-'43').
+src/com/nttdata/infra/dao/StatusDAO.java:29	Found 'DD'-anomaly for variable 'con' (lines '29'-'43').
+src/com/nttdata/infra/dao/StatusDAO.java:32	Local variable 'inMap' could be declared final
+src/com/nttdata/infra/dao/StatusDAO.java:45	Found 'DU'-anomaly for variable 'statusList' (lines '45'-'59').
+src/com/nttdata/infra/dao/StatusDAO.java:45	Found 'DU'-anomaly for variable 'statusList' (lines '45'-'59').
+src/com/nttdata/infra/dao/StatusDAO.java:51	Caught exception is rethrown, original stack trace may be lost
+src/com/nttdata/infra/dao/StatusDAO.java:55	Caught exception is rethrown, original stack trace may be lost
+src/com/nttdata/infra/dao/StatusDAOTest.java:14	Each class should declare at least one constructor
+src/com/nttdata/infra/dao/StatusDAOTest.java:18	Found 'DD'-anomaly for variable 'statusList' (lines '18'-'32').
+src/com/nttdata/infra/dao/StatusDAOTest.java:19	Local variable 'sts' could be declared final
+src/com/nttdata/infra/dao/StatusDAOTest.java:20	Local variable 'role2' could be declared final
+src/com/nttdata/infra/dao/StatusDAOTest.java:21	Local variable 'stat1' could be declared final
+src/com/nttdata/infra/dao/StatusDAOTest.java:22	Found 'DD'-anomaly for variable 'getSts' (lines '22'-'35').
+src/com/nttdata/infra/dao/StatusDAOTest.java:22	Found 'DU'-anomaly for variable 'getSts' (lines '22'-'49').
+src/com/nttdata/infra/dao/StatusDAOTest.java:23	Found 'DD'-anomaly for variable 'stat' (lines '23'-'37').
+src/com/nttdata/infra/dao/StatusDAOTest.java:33	Local variable 'itr' could be declared final
+src/com/nttdata/infra/dao/StatusDAOTest.java:37	Found 'DD'-anomaly for variable 'stat' (lines '37'-'37').
+src/com/nttdata/infra/dao/StatusDAOTest.java:42	JUnit assertions should include a message
+src/com/nttdata/infra/dao/StatusDAOTest.java:46	Avoid printStackTrace(); use a logger call instead.
+src/com/nttdata/infra/dao/StatusDAOTest.java:53	Local variable 'role1' could be declared final
+src/com/nttdata/infra/dao/StatusDAOTest.java:54	Found 'DD'-anomaly for variable 'myStat' (lines '54'-'68').
+src/com/nttdata/infra/dao/StatusDAOTest.java:54	Found 'DU'-anomaly for variable 'myStat' (lines '54'-'79').
+src/com/nttdata/infra/dao/StatusDAOTest.java:57	Found 'DD'-anomaly for variable 'stats' (lines '57'-'70').
+src/com/nttdata/infra/dao/StatusDAOTest.java:58	Found 'DD'-anomaly for variable 'getList' (lines '58'-'65').
+src/com/nttdata/infra/dao/StatusDAOTest.java:70	Found 'DD'-anomaly for variable 'stats' (lines '70'-'70').
+src/com/nttdata/infra/dao/StatusDAOTest.java:73	JUnit assertions should include a message
+src/com/nttdata/infra/dao/StatusDAOTest.java:76	Avoid printStackTrace(); use a logger call instead.
+src/com/nttdata/infra/dao/StatusDAOTest.java:88	Found 'DD'-anomaly for variable 'stats' (lines '88'-'100').
+src/com/nttdata/infra/dao/StatusDAOTest.java:89	Found 'DD'-anomaly for variable 'myStat' (lines '89'-'98').
+src/com/nttdata/infra/dao/StatusDAOTest.java:89	Found 'DU'-anomaly for variable 'myStat' (lines '89'-'110').
+src/com/nttdata/infra/dao/StatusDAOTest.java:90	Found 'DD'-anomaly for variable 'getList' (lines '90'-'95').
+src/com/nttdata/infra/dao/StatusDAOTest.java:100	Found 'DD'-anomaly for variable 'stats' (lines '100'-'100').
+src/com/nttdata/infra/dao/StatusDAOTest.java:103	JUnit assertions should include a message
+src/com/nttdata/infra/dao/StatusDAOTest.java:107	Avoid printStackTrace(); use a logger call instead.
+src/com/nttdata/infra/dao/UserDAO.java:23	Each class should declare at least one constructor
+src/com/nttdata/infra/dao/UserDAO.java:31	Ensure that resources like this Connection object are closed after use
+src/com/nttdata/infra/dao/UserDAO.java:31	Found 'DD'-anomaly for variable 'con' (lines '31'-'46').
+src/com/nttdata/infra/dao/UserDAO.java:31	Found 'DD'-anomaly for variable 'con' (lines '31'-'46').
+src/com/nttdata/infra/dao/UserDAO.java:32	Found 'DD'-anomaly for variable 'userList' (lines '32'-'48').
+src/com/nttdata/infra/dao/UserDAO.java:32	Found 'DD'-anomaly for variable 'userList' (lines '32'-'48').
+src/com/nttdata/infra/dao/UserDAO.java:33	Found 'DD'-anomaly for variable 'user1' (lines '33'-'52').
+src/com/nttdata/infra/dao/UserDAO.java:33	Found 'DD'-anomaly for variable 'user1' (lines '33'-'52').
+src/com/nttdata/infra/dao/UserDAO.java:33	Found 'DU'-anomaly for variable 'user1' (lines '33'-'66').
+src/com/nttdata/infra/dao/UserDAO.java:33	Found 'DU'-anomaly for variable 'user1' (lines '33'-'66').
+src/com/nttdata/infra/dao/UserDAO.java:34	Found 'DD'-anomaly for variable 'conHolder' (lines '34'-'45').
+src/com/nttdata/infra/dao/UserDAO.java:34	Found 'DD'-anomaly for variable 'conHolder' (lines '34'-'45').
+src/com/nttdata/infra/dao/UserDAO.java:35	Local variable 'inMap' could be declared final
+src/com/nttdata/infra/dao/UserDAO.java:46	Found 'DD'-anomaly for variable 'con' (lines '46'-'47').
+src/com/nttdata/infra/dao/UserDAO.java:46	Found 'DD'-anomaly for variable 'con' (lines '46'-'47').
+src/com/nttdata/infra/dao/UserDAO.java:50	Local variable 'itr' could be declared final
+src/com/nttdata/infra/dao/UserDAO.java:52	Found 'DD'-anomaly for variable 'user1' (lines '52'-'52').
+src/com/nttdata/infra/dao/UserDAO.java:52	Found 'DD'-anomaly for variable 'user1' (lines '52'-'52').
+src/com/nttdata/infra/dao/UserDAO.java:52	Found 'DU'-anomaly for variable 'user1' (lines '52'-'66').
+src/com/nttdata/infra/dao/UserDAO.java:52	Found 'DU'-anomaly for variable 'user1' (lines '52'-'66').
+src/com/nttdata/infra/dao/UserDAO.java:57	Caught exception is rethrown, original stack trace may be lost
+src/com/nttdata/infra/dao/UserDAO.java:62	Caught exception is rethrown, original stack trace may be lost
+src/com/nttdata/infra/dao/UserDAOTest.java:9	Each class should declare at least one constructor
+src/com/nttdata/infra/dao/UserDAOTest.java:13	Found 'DD'-anomaly for variable 'login' (lines '13'-'18').
+src/com/nttdata/infra/dao/UserDAOTest.java:14	Local variable 'test' could be declared final
+src/com/nttdata/infra/dao/UserDAOTest.java:15	Found 'DD'-anomaly for variable 'validate' (lines '15'-'21').
+src/com/nttdata/infra/dao/UserDAOTest.java:15	Found 'DD'-anomaly for variable 'validate' (lines '15'-'23').
+src/com/nttdata/infra/dao/UserDAOTest.java:20	Avoid if (x != y) ..; else ..;
+src/com/nttdata/infra/dao/UserDAOTest.java:25	JUnit assertions should include a message
+src/com/nttdata/infra/dao/UserDAOTest.java:28	Avoid printStackTrace(); use a logger call instead.
+src/com/nttdata/infra/dao/UserDAOTest.java:34	Found 'DD'-anomaly for variable 'login' (lines '34'-'39').
+src/com/nttdata/infra/dao/UserDAOTest.java:35	Local variable 'test' could be declared final
+src/com/nttdata/infra/dao/UserDAOTest.java:36	Found 'DD'-anomaly for variable 'validate' (lines '36'-'42').
+src/com/nttdata/infra/dao/UserDAOTest.java:36	Found 'DD'-anomaly for variable 'validate' (lines '36'-'44').
+src/com/nttdata/infra/dao/UserDAOTest.java:46	JUnit assertions should include a message
+src/com/nttdata/infra/dao/UserDAOTest.java:49	Avoid printStackTrace(); use a logger call instead.
+src/com/nttdata/infra/dao/UserDAOTest.java:55	Found 'DD'-anomaly for variable 'login' (lines '55'-'60').
+src/com/nttdata/infra/dao/UserDAOTest.java:56	Local variable 'test' could be declared final
+src/com/nttdata/infra/dao/UserDAOTest.java:57	Found 'DD'-anomaly for variable 'validate' (lines '57'-'63').
+src/com/nttdata/infra/dao/UserDAOTest.java:57	Found 'DD'-anomaly for variable 'validate' (lines '57'-'65').
+src/com/nttdata/infra/dao/UserDAOTest.java:67	JUnit assertions should include a message
+src/com/nttdata/infra/dao/UserDAOTest.java:70	Avoid printStackTrace(); use a logger call instead.
+src/com/nttdata/infra/dao/UserDAOTest.java:76	Found 'DD'-anomaly for variable 'login' (lines '76'-'81').
+src/com/nttdata/infra/dao/UserDAOTest.java:77	Local variable 'test' could be declared final
+src/com/nttdata/infra/dao/UserDAOTest.java:78	Found 'DD'-anomaly for variable 'validate' (lines '78'-'84').
+src/com/nttdata/infra/dao/UserDAOTest.java:78	Found 'DD'-anomaly for variable 'validate' (lines '78'-'86').
+src/com/nttdata/infra/dao/UserDAOTest.java:88	JUnit assertions should include a message
+src/com/nttdata/infra/dao/UserDAOTest.java:91	Avoid printStackTrace(); use a logger call instead.
+src/com/nttdata/infra/domain/RequestDetails.java:11	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/nttdata/infra/domain/RequestDetails.java:12	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/nttdata/infra/domain/RequestDetails.java:17	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/nttdata/infra/domain/RequestDetails.java:20	Avoid excessively long variable names like cancellationReason
+src/com/nttdata/infra/domain/RequestDetails.java:21	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/nttdata/infra/domain/RequestDetails.java:44	Avoid really long parameter lists.
+src/com/nttdata/infra/domain/RequestDetails.java:44	Avoid unused constructor parameters such as 'reqTypeId'.
+src/com/nttdata/infra/domain/RequestDetails.java:46	Avoid excessively long variable names like cancellationReason
+src/com/nttdata/infra/domain/RequestDetails.java:91	Avoid excessively long variable names like cancellationReason
+src/com/nttdata/infra/domain/RequestDetails.java:91	Parameter 'cancellationReason' is not assigned and could be declared final
+src/com/nttdata/infra/domain/RequestDetails.java:91	Parameter 'statusId' is not assigned and could be declared final
+src/com/nttdata/infra/domain/RequestDetails.java:96	Parameter 'rejectionReason' is not assigned and could be declared final
+src/com/nttdata/infra/domain/RequestDetails.java:96	Parameter 'statusid' is not assigned and could be declared final
+src/com/nttdata/infra/domain/RequestDetails.java:101	Parameter 'completedDate' is not assigned and could be declared final
+src/com/nttdata/infra/domain/RequestDetails.java:103	Local variable 'complete' could be declared final
+src/com/nttdata/infra/domain/RequestDetails.java:104	Consider simply returning the value vs storing it in local variable 'complete'
+src/com/nttdata/infra/domain/RequestDetails.java:109	Local variable 'assigned' could be declared final
+src/com/nttdata/infra/domain/RequestDetails.java:110	Consider simply returning the value vs storing it in local variable 'assigned'
+src/com/nttdata/infra/domain/RequestDetails.java:189	Avoid excessively long variable names like cancellationReason
+src/com/nttdata/infra/domain/RequestDetails.java:256	Found 'DD'-anomaly for variable 'isSame' (lines '256'-'260').
+src/com/nttdata/infra/domain/RequestDetails.java:257	Local variable 'details' could be declared final
+src/com/nttdata/infra/domain/RequestType.java:4	Avoid variables with short names like id
+src/com/nttdata/infra/domain/RequestType.java:7	Avoid variables with short names like id
+src/com/nttdata/infra/domain/RequestType.java:21	Avoid variables with short names like id
+src/com/nttdata/infra/domain/RequestType.java:21	Parameter 'id' is not assigned and could be declared final
+src/com/nttdata/infra/domain/RequestType.java:29	Parameter 'desc' is not assigned and could be declared final
+src/com/nttdata/infra/domain/RequestType.java:45	Parameter 'obj' is not assigned and could be declared final
+src/com/nttdata/infra/domain/RequestType.java:47	Found 'DD'-anomaly for variable 'isSame' (lines '47'-'50').
+src/com/nttdata/infra/domain/RequestType.java:48	Local variable 'details' could be declared final
+src/com/nttdata/infra/domain/Role.java:4	Avoid variables with short names like id
+src/com/nttdata/infra/domain/Role.java:7	Avoid unnecessary constructors - the compiler will generate these for you
+src/com/nttdata/infra/domain/Role.java:7	Document empty constructor
+src/com/nttdata/infra/domain/Role.java:15	Avoid variables with short names like id
+src/com/nttdata/infra/domain/Role.java:15	Parameter 'id' is not assigned and could be declared final
+src/com/nttdata/infra/domain/Role.java:23	Parameter 'name' is not assigned and could be declared final
+src/com/nttdata/infra/domain/Status.java:6	Use explicit scoping instead of the default package private level
+src/com/nttdata/infra/domain/Status.java:22	Parameter 'statusId' is not assigned and could be declared final
+src/com/nttdata/infra/domain/Status.java:30	Parameter 'statusDesc' is not assigned and could be declared final
+src/com/nttdata/infra/domain/Status.java:38	Parameter 'role' is not assigned and could be declared final
+src/com/nttdata/infra/domain/Status.java:54	Parameter 'obj' is not assigned and could be declared final
+src/com/nttdata/infra/domain/Status.java:56	Found 'DD'-anomaly for variable 'isSame' (lines '56'-'59').
+src/com/nttdata/infra/domain/Status.java:57	Local variable 'sts' could be declared final
+src/com/nttdata/infra/domain/User.java:4	Avoid variables with short names like id
+src/com/nttdata/infra/domain/User.java:9	Avoid variables with short names like id
+src/com/nttdata/infra/domain/User.java:25	Avoid variables with short names like id
+src/com/nttdata/infra/domain/User.java:25	Parameter 'id' is not assigned and could be declared final
+src/com/nttdata/infra/domain/User.java:33	Parameter 'passwd' is not assigned and could be declared final
+src/com/nttdata/infra/domain/User.java:41	Parameter 'name' is not assigned and could be declared final
+src/com/nttdata/infra/domain/User.java:49	Parameter 'rollId' is not assigned and could be declared final
+src/com/nttdata/infra/service/InfraSystemFacade.java:22	Each class should declare at least one constructor
+src/com/nttdata/infra/service/InfraSystemFacade.java:27	The String literal "First argument:" appears 6 times in this file; the first occurrence is on line 27
+src/com/nttdata/infra/service/InfraSystemFacade.java:29	Local variable 'user' could be declared final
+src/com/nttdata/infra/service/InfraSystemFacade.java:30	Found 'DD'-anomaly for variable 'login' (lines '30'-'32').
+src/com/nttdata/infra/service/InfraSystemFacade.java:32	Found 'DU'-anomaly for variable 'login' (lines '32'-'40').
+src/com/nttdata/infra/service/InfraSystemFacade.java:37	Caught exception is rethrown, original stack trace may be lost
+src/com/nttdata/infra/service/InfraSystemFacade.java:44	Local variable 'createSR' could be declared final
+src/com/nttdata/infra/service/InfraSystemFacade.java:47	Found 'DU'-anomaly for variable 'result' (lines '47'-'55').
+src/com/nttdata/infra/service/InfraSystemFacade.java:52	Caught exception is rethrown, original stack trace may be lost
+src/com/nttdata/infra/service/InfraSystemFacade.java:60	Local variable 'reqDetails' could be declared final
+src/com/nttdata/infra/service/InfraSystemFacade.java:61	Found 'DD'-anomaly for variable 'reqList' (lines '61'-'64').
+src/com/nttdata/infra/service/InfraSystemFacade.java:64	Found 'DU'-anomaly for variable 'reqList' (lines '64'-'79').
+src/com/nttdata/infra/service/InfraSystemFacade.java:76	Caught exception is rethrown, original stack trace may be lost
+src/com/nttdata/infra/service/InfraSystemFacade.java:86	Local variable 'reqDetails' could be declared final
+src/com/nttdata/infra/service/InfraSystemFacade.java:88	Found 'DU'-anomaly for variable 'reqDet' (lines '88'-'97').
+src/com/nttdata/infra/service/InfraSystemFacade.java:93	Caught exception is rethrown, original stack trace may be lost
+src/com/nttdata/infra/service/InfraSystemFacade.java:103	Found 'DD'-anomaly for variable 'statusList' (lines '103'-'106').
+src/com/nttdata/infra/service/InfraSystemFacade.java:104	Local variable 'stsDao' could be declared final
+src/com/nttdata/infra/service/InfraSystemFacade.java:106	Found 'DU'-anomaly for variable 'statusList' (lines '106'-'119').
+src/com/nttdata/infra/service/InfraSystemFacade.java:115	Caught exception is rethrown, original stack trace may be lost
+src/com/nttdata/infra/service/InfraSystemFacade.java:127	Found 'DU'-anomaly for variable 'isUpdated' (lines '127'-'135').
+src/com/nttdata/infra/service/InfraSystemFacade.java:138	Found 'DD'-anomaly for variable 'typeList' (lines '138'-'141').
+src/com/nttdata/infra/service/InfraSystemFacade.java:141	Found 'DU'-anomaly for variable 'typeList' (lines '141'-'153').
+src/com/nttdata/infra/service/InfraSystemFacade.java:156	Found 'DD'-anomaly for variable 'reqList' (lines '156'-'159').
+src/com/nttdata/infra/service/InfraSystemFacade.java:159	Found 'DU'-anomaly for variable 'reqList' (lines '159'-'167').
+src/com/nttdata/infra/web/handlers/CreateRequest.java:19	Each class should declare at least one constructor
+src/com/nttdata/infra/web/handlers/CreateRequest.java:22	Parameter 'request' is not assigned and could be declared final
+src/com/nttdata/infra/web/handlers/CreateRequest.java:22	Parameter 'response' is not assigned and could be declared final
+src/com/nttdata/infra/web/handlers/CreateRequest.java:26	Local variable 'infra' could be declared final
+src/com/nttdata/infra/web/handlers/CreateRequest.java:27	Local variable 'session' could be declared final
+src/com/nttdata/infra/web/handlers/CreateRequest.java:28	Found 'DD'-anomaly for variable 'requestId' (lines '28'-'53').
+src/com/nttdata/infra/web/handlers/CreateRequest.java:29	Found 'DD'-anomaly for variable 'dispatch' (lines '29'-'55').
+src/com/nttdata/infra/web/handlers/CreateRequest.java:30	Local variable 'userId' could be declared final
+src/com/nttdata/infra/web/handlers/CreateRequest.java:31	Local variable 'location' could be declared final
+src/com/nttdata/infra/web/handlers/CreateRequest.java:32	Local variable 'cubeNo' could be declared final
+src/com/nttdata/infra/web/handlers/Login.java:18	Each class should declare at least one constructor
+src/com/nttdata/infra/web/handlers/Login.java:21	Parameter 'request' is not assigned and could be declared final
+src/com/nttdata/infra/web/handlers/Login.java:21	Parameter 'response' is not assigned and could be declared final
+src/com/nttdata/infra/web/handlers/Login.java:24	Local variable 'userName' could be declared final
+src/com/nttdata/infra/web/handlers/Login.java:25	Local variable 'password' could be declared final
+src/com/nttdata/infra/web/handlers/Login.java:26	Local variable 'session' could be declared final
+src/com/nttdata/infra/web/handlers/Login.java:28	Found 'DD'-anomaly for variable 'dispatch' (lines '28'-'39').
+src/com/nttdata/infra/web/handlers/Login.java:28	Found 'DD'-anomaly for variable 'dispatch' (lines '28'-'47').
+src/com/nttdata/infra/web/handlers/Login.java:29	Local variable 'infra' could be declared final
+src/com/nttdata/infra/web/handlers/Login.java:30	Found 'DD'-anomaly for variable 'login' (lines '30'-'33').
+src/com/nttdata/infra/web/handlers/Login.java:44	Local variable 'roleId' could be declared final
+src/com/nttdata/infra/web/handlers/Logout.java:14	Each class should declare at least one constructor
+src/com/nttdata/infra/web/handlers/Logout.java:17	Parameter 'request' is not assigned and could be declared final
+src/com/nttdata/infra/web/handlers/Logout.java:17	Parameter 'response' is not assigned and could be declared final
+src/com/nttdata/infra/web/handlers/Logout.java:21	Local variable 'session' could be declared final
+src/com/nttdata/infra/web/handlers/ReqType.java:20	Each class should declare at least one constructor
+src/com/nttdata/infra/web/handlers/ReqType.java:23	Parameter 'request' is not assigned and could be declared final
+src/com/nttdata/infra/web/handlers/ReqType.java:23	Parameter 'response' is not assigned and could be declared final
+src/com/nttdata/infra/web/handlers/ReqType.java:26	Local variable 'session' could be declared final
+src/com/nttdata/infra/web/handlers/ReqType.java:27	Found 'DD'-anomaly for variable 'dispatch' (lines '27'-'35').
+src/com/nttdata/infra/web/handlers/ReqType.java:28	Local variable 'infra' could be declared final
+src/com/nttdata/infra/web/handlers/ReqType.java:29	Found 'DD'-anomaly for variable 'typeList' (lines '29'-'33').
+src/com/nttdata/infra/web/handlers/RequestList.java:21	Each class should declare at least one constructor
+src/com/nttdata/infra/web/handlers/RequestList.java:24	Parameter 'request' is not assigned and could be declared final
+src/com/nttdata/infra/web/handlers/RequestList.java:24	Parameter 'response' is not assigned and could be declared final
+src/com/nttdata/infra/web/handlers/RequestList.java:27	Local variable 'fac' could be declared final
+src/com/nttdata/infra/web/handlers/RequestList.java:28	Local variable 'session' could be declared final
+src/com/nttdata/infra/web/handlers/RequestList.java:29	Local variable 'role' could be declared final
+src/com/nttdata/infra/web/handlers/RequestList.java:30	Found 'DD'-anomaly for variable 'dispatch' (lines '30'-'48').
+src/com/nttdata/infra/web/handlers/RequestList.java:32	Avoid unused local variables such as 'types'.
+src/com/nttdata/infra/web/handlers/RequestList.java:32	Found 'DD'-anomaly for variable 'types' (lines '32'-'35').
+src/com/nttdata/infra/web/handlers/RequestList.java:35	Found 'DU'-anomaly for variable 'types' (lines '35'-'87').
+src/com/nttdata/infra/web/handlers/RequestList.java:52	Found 'DD'-anomaly for variable 'reqList' (lines '52'-'54').
+src/com/nttdata/infra/web/handlers/RequestList.java:69	Found 'DD'-anomaly for variable 'reqList' (lines '69'-'72').
+src/com/nttdata/infra/web/handlers/RequestList.java:70	Local variable 'userId' could be declared final
+src/com/nttdata/infra/web/handlers/SaveRequest.java:19	Each class should declare at least one constructor
+src/com/nttdata/infra/web/handlers/SaveRequest.java:19	The class 'SaveRequest' has a Cyclomatic Complexity of 18 (Highest = 17).
+src/com/nttdata/infra/web/handlers/SaveRequest.java:22	Avoid really long methods.
+src/com/nttdata/infra/web/handlers/SaveRequest.java:22	Parameter 'request' is not assigned and could be declared final
+src/com/nttdata/infra/web/handlers/SaveRequest.java:22	Parameter 'response' is not assigned and could be declared final
+src/com/nttdata/infra/web/handlers/SaveRequest.java:22	The method 'handle' has a Cyclomatic Complexity of 17.
+src/com/nttdata/infra/web/handlers/SaveRequest.java:25	Found 'DD'-anomaly for variable 'dispatch' (lines '25'-'104').
+src/com/nttdata/infra/web/handlers/SaveRequest.java:25	Found 'DD'-anomaly for variable 'dispatch' (lines '25'-'114').
+src/com/nttdata/infra/web/handlers/SaveRequest.java:25	Found 'DD'-anomaly for variable 'dispatch' (lines '25'-'121').
+src/com/nttdata/infra/web/handlers/SaveRequest.java:25	Found 'DD'-anomaly for variable 'dispatch' (lines '25'-'64').
+src/com/nttdata/infra/web/handlers/SaveRequest.java:25	Found 'DD'-anomaly for variable 'dispatch' (lines '25'-'74').
+src/com/nttdata/infra/web/handlers/SaveRequest.java:25	Found 'DD'-anomaly for variable 'dispatch' (lines '25'-'81').
+src/com/nttdata/infra/web/handlers/SaveRequest.java:25	Found 'DD'-anomaly for variable 'dispatch' (lines '25'-'86').
+src/com/nttdata/infra/web/handlers/SaveRequest.java:25	Found 'DU'-anomaly for variable 'dispatch' (lines '25'-'126').
+src/com/nttdata/infra/web/handlers/SaveRequest.java:26	Local variable 'date' could be declared final
+src/com/nttdata/infra/web/handlers/SaveRequest.java:27	Found 'DU'-anomaly for variable 'today' (lines '27'-'126').
+src/com/nttdata/infra/web/handlers/SaveRequest.java:27	Local variable 'today' could be declared final
+src/com/nttdata/infra/web/handlers/SaveRequest.java:28	Local variable 'session' could be declared final
+src/com/nttdata/infra/web/handlers/SaveRequest.java:29	Found 'DU'-anomaly for variable 'infra' (lines '29'-'126').
+src/com/nttdata/infra/web/handlers/SaveRequest.java:29	Local variable 'infra' could be declared final
+src/com/nttdata/infra/web/handlers/SaveRequest.java:30	Found 'DD'-anomaly for variable 'updateReq' (lines '30'-'31').
+src/com/nttdata/infra/web/handlers/SaveRequest.java:31	Found 'DU'-anomaly for variable 'updateReq' (lines '31'-'126').
+src/com/nttdata/infra/web/handlers/SaveRequest.java:32	Found 'DU'-anomaly for variable 'rejectReason' (lines '32'-'126').
+src/com/nttdata/infra/web/handlers/SaveRequest.java:32	Local variable 'rejectReason' could be declared final
+src/com/nttdata/infra/web/handlers/SaveRequest.java:33	Found 'DU'-anomaly for variable 'cancelReason' (lines '33'-'126').
+src/com/nttdata/infra/web/handlers/SaveRequest.java:34	Found 'DU'-anomaly for variable 'statusID' (lines '34'-'126').
+src/com/nttdata/infra/web/handlers/SaveRequest.java:39	Avoid if (x != y) ..; else ..;
+src/com/nttdata/infra/web/handlers/SaveRequest.java:40	Avoid if (x != y) ..; else ..;
+src/com/nttdata/infra/web/handlers/SaveRequest.java:92	These nested if statements could be combined
+src/com/nttdata/infra/web/handlers/SaveRequest.java:93	Avoid if (x != y) ..; else ..;
+src/com/nttdata/infra/web/handlers/ViewRequest.java:18	Each class should declare at least one constructor
+src/com/nttdata/infra/web/handlers/ViewRequest.java:21	Parameter 'request' is not assigned and could be declared final
+src/com/nttdata/infra/web/handlers/ViewRequest.java:21	Parameter 'response' is not assigned and could be declared final
+src/com/nttdata/infra/web/handlers/ViewRequest.java:24	Local variable 'req' could be declared final
+src/com/nttdata/infra/web/handlers/ViewRequest.java:26	Found 'DD'-anomaly for variable 'dispatch' (lines '26'-'33').
+src/com/nttdata/infra/web/handlers/ViewRequest.java:27	Local variable 'fac' could be declared final
+src/com/nttdata/infra/web/handlers/ViewRequest.java:28	Found 'DD'-anomaly for variable 'details' (lines '28'-'31').
+src/com/nttdata/infra/web/handlers/ViewRequest.java:29	Local variable 'session' could be declared final
+src/com/nttdata/mvc/HttpRequestHandler.java:10	Avoid modifiers which are implied by the context
+src/com/nttdata/mvc/MvcController.java:17	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/nttdata/mvc/MvcController.java:22	Avoid unnecessary constructors - the compiler will generate these for you
+src/com/nttdata/mvc/MvcController.java:31	Parameter 'request' is not assigned and could be declared final
+src/com/nttdata/mvc/MvcController.java:32	Parameter 'response' is not assigned and could be declared final
+src/com/nttdata/mvc/MvcController.java:41	Parameter 'request' is not assigned and could be declared final
+src/com/nttdata/mvc/MvcController.java:42	Parameter 'response' is not assigned and could be declared final
+src/com/nttdata/mvc/MvcController.java:44	Local variable 'url' could be declared final
+src/com/nttdata/mvc/MvcController.java:46	Local variable 'key' could be declared final
+src/com/nttdata/mvc/MvcController.java:47	Local variable 'handler' could be declared final
+src/com/nttdata/mvc/MvcController.java:48	Avoid if (x != y) ..; else ..;
+src/com/nttdata/mvc/MvcController.java:56	Parameter 'config' is not assigned and could be declared final
+src/com/nttdata/mvc/MvcController.java:59	Local variable 'mvcProps' could be declared final
+src/com/nttdata/mvc/MvcController.java:66	Caught exception is rethrown, original stack trace may be lost
+src/com/nttdata/mvc/MvcUtil.java:16	Parameter 'clazz' is not assigned and could be declared final
+src/com/nttdata/mvc/MvcUtil.java:16	Parameter 'interfaceName' is not assigned and could be declared final
+src/com/nttdata/mvc/MvcUtil.java:17	Local variable 'interfaces' could be declared final
+src/com/nttdata/mvc/MvcUtil.java:18	Found 'DD'-anomaly for variable 'found' (lines '18'-'21').
+src/com/nttdata/mvc/MvcUtil.java:21	Found 'DD'-anomaly for variable 'found' (lines '21'-'21').
+src/com/nttdata/mvc/MvcUtil.java:27	Parameter 'propsFile' is not assigned and could be declared final
+src/com/nttdata/mvc/MvcUtil.java:28	Found 'DU'-anomaly for variable 'handlers' (lines '28'-'80').
+src/com/nttdata/mvc/MvcUtil.java:28	Local variable 'handlers' could be declared final
+src/com/nttdata/mvc/MvcUtil.java:29	Local variable 'prop' could be declared final
+src/com/nttdata/mvc/MvcUtil.java:30	Found 'DD'-anomaly for variable 'proStr' (lines '30'-'32').
+src/com/nttdata/mvc/MvcUtil.java:34	Local variable 'enKeys' could be declared final
+src/com/nttdata/mvc/MvcUtil.java:36	Local variable 'key' could be declared final
+src/com/nttdata/mvc/MvcUtil.java:52	Caught exception is rethrown, original stack trace may be lost
+src/com/nttdata/mvc/MvcUtil.java:56	Caught exception is rethrown, original stack trace may be lost
+src/com/nttdata/mvc/MvcUtil.java:60	Caught exception is rethrown, original stack trace may be lost
+src/com/nttdata/mvc/MvcUtil.java:64	Caught exception is rethrown, original stack trace may be lost
+src/com/nttdata/mvc/MvcUtil.java:68	Caught exception is rethrown, original stack trace may be lost
